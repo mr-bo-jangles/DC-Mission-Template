@@ -17,17 +17,18 @@ _groups = [
 ["GrpNATO_ASL","NATO ASL -"],
 ["GrpNATO_A1","NATO A1 -"],
 ["GrpNATO_A2","NATO A2 -"],
-["GrpNATO_A3","NATO A3 -"],
 
 ["GrpNATO_BSL","NATO BSL -"],
 ["GrpNATO_B1","NATO B1 -"],
 ["GrpNATO_B2","NATO B2 -"],
-["GrpNATO_B3","NATO B3 -"],
 
 ["GrpNATO_CSL","NATO CSL -"],
 ["GrpNATO_C1","NATO C1 -"],
 ["GrpNATO_C2","NATO C2 -"],
-["GrpNATO_C3","NATO C3 -"],
+
+["GrpNATO_DSL","NATO DSL -"],
+["GrpNATO_D1","NATO D1 -"],
+["GrpNATO_D2","NATO D2 -"],
 
 ["GrpNATO_MMG1","NATO MMG1 -"],
 ["GrpNATO_HMG1","NATO HMG1 -"],
@@ -71,17 +72,18 @@ _groups = [
 ["GrpFIA_ASL","FIA ASL -"],
 ["GrpFIA_A1","FIA A1 -"],
 ["GrpFIA_A2","FIA A2 -"],
-["GrpFIA_A3","FIA A3 -"],
 
 ["GrpFIA_BSL","FIA BSL -"],
 ["GrpFIA_B1","FIA B1 -"],
 ["GrpFIA_B2","FIA B2 -"],
-["GrpFIA_B3","FIA B3 -"],
 
 ["GrpFIA_CSL","FIA CSL -"],
 ["GrpFIA_C1","FIA C1 -"],
 ["GrpFIA_C2","FIA C2 -"],
-["GrpFIA_C3","FIA C3 -"],
+
+["GrpFIA_DSL","FIA DSL -"],
+["GrpFIA_D1","FIA D1 -"],
+["GrpFIA_D2","FIA D2 -"],
 
 ["GrpFIA_MMG1","FIA MMG1 -"],
 ["GrpFIA_HMG1","FIA HMG1 -"],
@@ -125,17 +127,18 @@ _groups = [
 ["GrpCSAT_ASL","CSAT ASL -"],
 ["GrpCSAT_A1","CSAT A1 -"],
 ["GrpCSAT_A2","CSAT A2 -"],
-["GrpCSAT_A3","CSAT A3 -"],
 
 ["GrpCSAT_BSL","CSAT BSL -"],
 ["GrpCSAT_B1","CSAT B1 -"],
 ["GrpCSAT_B2","CSAT B2 -"],
-["GrpCSAT_B3","CSAT B3 -"],
 
 ["GrpCSAT_CSL","CSAT CSL -"],
 ["GrpCSAT_C1","CSAT C1 -"],
 ["GrpCSAT_C2","CSAT C2 -"],
-["GrpCSAT_C3","CSAT C3 -"],
+
+["GrpCSAT_DSL","CSAT DSL -"],
+["GrpCSAT_D1","CSAT D1 -"],
+["GrpCSAT_D2","CSAT D2 -"],
 
 ["GrpCSAT_MMG1","CSAT MMG1 -"],
 ["GrpCSAT_HMG1","CSAT HMG1 -"],
@@ -179,17 +182,18 @@ _groups = [
 ["GrpOFIA_ASL","FIA O ASL -"],
 ["GrpOFIA_A1","FIA O A1 -"],
 ["GrpOFIA_A2","FIA O A2 -"],
-["GrpOFIA_A3","FIA O A3 -"],
 
 ["GrpOFIA_BSL","FIA O BSL -"],
 ["GrpOFIA_B1","FIA O B1 -"],
 ["GrpOFIA_B2","FIA O B2 -"],
-["GrpOFIA_B3","FIA O B3 -"],
 
 ["GrpOFIA_CSL","FIA O CSL -"],
 ["GrpOFIA_C1","FIA O C1 -"],
 ["GrpOFIA_C2","FIA O C2 -"],
-["GrpOFIA_C3","FIA O C3 -"],
+
+["GrpOFIA_DSL","FIA O DSL -"],
+["GrpOFIA_D1","FIA O D1 -"],
+["GrpOFIA_D2","FIA O D2 -"],
 
 ["GrpOFIA_MMG1","FIA O MMG1 -"],
 ["GrpOFIA_HMG1","FIA O HMG1 -"],
@@ -233,17 +237,18 @@ _groups = [
 ["GrpAAF_ASL","AAF ASL -"],
 ["GrpAAF_A1","AAF A1 -"],
 ["GrpAAF_A2","AAF A2 -"],
-["GrpAAF_A3","AAF A3 -"],
 
 ["GrpAAF_BSL","AAF BSL -"],
 ["GrpAAF_B1","AAF B1 -"],
 ["GrpAAF_B2","AAF B2 -"],
-["GrpAAF_B3","AAF B3 -"],
 
 ["GrpAAF_CSL","AAF CSL -"],
 ["GrpAAF_C1","AAF C1 -"],
 ["GrpAAF_C2","AAF C2 -"],
-["GrpAAF_C3","AAF C3 -"],
+
+["GrpAAF_DSL","AAF DSL -"],
+["GrpAAF_D1","AAF D1 -"],
+["GrpAAF_D2","AAF D2 -"],
 
 ["GrpAAF_MMG1","AAF MMG1 -"],
 ["GrpAAF_HMG1","AAF HMG1 -"],
@@ -288,17 +293,18 @@ _groups = [
 ["GrpIFIA_ASL","FIA I ASL -"],
 ["GrpIFIA_A1","FIA I A1 -"],
 ["GrpIFIA_A2","FIA I A2 -"],
-["GrpIFIA_A3","FIA I A3 -"],
 
 ["GrpIFIA_BSL","FIA I BSL -"],
 ["GrpIFIA_B1","FIA I B1 -"],
 ["GrpIFIA_B2","FIA I B2 -"],
-["GrpIFIA_B3","FIA I B3 -"],
 
 ["GrpIFIA_CSL","FIA I CSL -"],
 ["GrpIFIA_C1","FIA I C1 -"],
 ["GrpIFIA_C2","FIA I C2 -"],
-["GrpIFIA_C3","FIA I C3 -"],
+
+["GrpIFIA_DSL","FIA I DSL -"],
+["GrpIFIA_D1","FIA I D1 -"],
+["GrpIFIA_D2","FIA I D2 -"],
 
 ["GrpIFIA_MMG1","FIA I MMG1 -"],
 ["GrpIFIA_HMG1","FIA I HMG1 -"],
