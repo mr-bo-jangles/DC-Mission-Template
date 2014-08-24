@@ -666,6 +666,176 @@ class Mission
 				};
 			};
 		};
+class Item155
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={8524.96,33.495884,10900.057};
+					id=421;
+					side="WEST";
+					vehicle="B_Soldier_SL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					text="UnitNATO_DSL_SL";
+					init="GrpNATO_DSL = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="NATO Delta Squad Leader";
+				};
+				class Item1
+				{
+					position[]={8527.4756,33.811462,10898.389};
+					id=422;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitNATO_DSL_M";
+					init="GrpNATO_DSL = group this; [""m"",this] call f_fnc_assignGear;";
+					description="NATO Delta Medic";
+				};
+			};
+		};
+		class Item156
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={8525.2334,32.541344,10884.418};
+					id=423;
+					side="WEST";
+					vehicle="B_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitNATO_D1_FTL";
+					init="GrpNATO_D1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="NATO Delta 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={8528.1787,32.663635,10882.82};
+					id=424;
+					side="WEST";
+					vehicle="B_soldier_AR_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitNATO_D1_AR";
+					init="GrpNATO_D1 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="NATO Delta 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={8531.3506,32.948063,10882.789};
+					id=425;
+					side="WEST";
+					vehicle="B_soldier_AAR_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitNATO_D1_AAR";
+					init="GrpNATO_D1 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="NATO Delta 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={8534.6514,33.242352,10882.738};
+					id=426;
+					side="WEST";
+					vehicle="B_soldier_LAT_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitNATO_D1_AT";
+					init="GrpNATO_D1 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="NATO Delta 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item157
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={8524.8506,31.34779,10868.473};
+					id=427;
+					side="WEST";
+					vehicle="B_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitNATO_D2_FTL";
+					init="GrpNATO_D2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="NATO Delta 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={8527.8311,31.452255,10867.012};
+					id=428;
+					side="WEST";
+					vehicle="B_soldier_AR_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitNATO_D2_AR";
+					init="GrpNATO_D2 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="NATO Delta 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={8530.9189,31.629847,10866.93};
+					id=429;
+					side="WEST";
+					vehicle="B_soldier_AAR_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitNATO_D2_AAR";
+					init="GrpNATO_D2 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="NATO Delta 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={8534.2197,31.819258,10866.902};
+					id=430;
+					side="WEST";
+					vehicle="B_soldier_LAT_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitNATO_D2_AT";
+					init="GrpNATO_D2 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="NATO Delta 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item158
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8524.7051,37.019722,10933.927};
+					id=431;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="F3_preMount_NATO_4";
+					init="[synchronizedObjects this,[""GrpNATO_DSL"",""GrpNATO_D1"",""GrpNATO_D2""],true,false] call f_fnc_mountGroups;";
+				};
+			};
+		};
 		class Item11
 		{
 			side="EAST";
@@ -1269,6 +1439,186 @@ class Mission
 					text="UnitCSAT_C2_AT";
 					init="GrpCSAT_C2 = group this; [""rat"",this] call f_fnc_assignGear;";
 					description="CSAT Charlie 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item163
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={8854.5889,31.676922,10907.401};
+					id=443;
+					side="EAST";
+					vehicle="O_Soldier_SL_F";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=0.60000002;
+					text="UnitCSAT_DSL_SL";
+					init="GrpCSAT_DSL = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="CSAT Delta Squad Leader";
+				};
+				class Item1
+				{
+					position[]={8857.0674,31.696253,10905.792};
+					id=444;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitCSAT_DSL_M";
+					init="GrpCSAT_DSL = group this; [""m"",this] call f_fnc_assignGear;";
+					description="CSAT Delta Medic";
+				};
+			};
+		};
+		class Item164
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={8854.2686,31.706409,10890.452};
+					id=445;
+					side="EAST";
+					vehicle="O_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitCSAT_D1_FTL";
+					init="GrpCSAT_D1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="CSAT Delta 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={8857.1787,31.745283,10888.854};
+					id=446;
+					side="EAST";
+					vehicle="O_Soldier_AR_F";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=0.60000002;
+					text="UnitCSAT_D1_AR";
+					init="GrpCSAT_D1 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="CSAT Delta 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={8860.6201,31.74025,10888.835};
+					id=447;
+					side="EAST";
+					vehicle="O_Soldier_AAR_F";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=0.60000002;
+					text="UnitCSAT_D1_AAR";
+					init="GrpCSAT_D1 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="CSAT Delta 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={8864.1006,31.721272,10888.679};
+					id=448;
+					side="EAST";
+					vehicle="O_Soldier_LAT_F";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=0.60000002;
+					text="UnitCSAT_D1_AT";
+					init="GrpCSAT_D1 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="CSAT Delta 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item165
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={8854.1787,31.60717,10875.39};
+					id=449;
+					side="EAST";
+					vehicle="O_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitCSAT_D2_FTL";
+					init="GrpCSAT_D2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="CSAT Delta 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={8857.0693,31.678526,10873.757};
+					id=450;
+					side="EAST";
+					vehicle="O_Soldier_AR_F";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=0.60000002;
+					text="UnitCSAT_D2_AR";
+					init="GrpCSAT_D2 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="CSAT Delta 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={8860.4307,31.775951,10873.647};
+					id=451;
+					side="EAST";
+					vehicle="O_Soldier_AAR_F";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=0.60000002;
+					text="UnitCSAT_D2_AAR";
+					init="GrpCSAT_D2 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="CSAT Delta 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={8864.0068,31.804546,10873.464};
+					id=452;
+					side="EAST";
+					vehicle="O_Soldier_LAT_F";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=0.60000002;
+					text="UnitCSAT_D2_AT";
+					init="GrpCSAT_D2 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="CSAT Delta 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item166
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8854.2373,31.667238,10940.851};
+					id=453;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="F3_preMount_CSAT_4";
+					init="[synchronizedObjects this,[""GrpCSAT_DSL"",""GrpCSAT_D1"",""GrpCSAT_D2""],true,false] call f_fnc_mountGroups;";
 				};
 			};
 		};
@@ -1926,6 +2276,174 @@ class Mission
 					text="UnitAAF_C2_AT";
 					init="GrpAAF_C2 = group this; [""rat"",this] call f_fnc_assignGear;";
 					description="AAF Charlie 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item167
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={8022.1772,29.066196,10844.489};
+					id=454;
+					side="GUER";
+					vehicle="I_Soldier_SL_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="UnitAAF_DSL_SL";
+					init="GrpAAF_DSL = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="AAF Delta Squad Leader";
+				};
+				class Item1
+				{
+					position[]={8025.4233,29.541475,10842.735};
+					id=455;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitAAF_DSL_M";
+					init="GrpAAF_DSL = group this; [""m"",this] call f_fnc_assignGear;";
+					description="AAF Delta Medic";
+				};
+			};
+		};
+		class Item168
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={8021.2476,30.609934,10829.653};
+					id=456;
+					side="GUER";
+					vehicle="I_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitAAF_D1_FTL";
+					init="GrpAAF_D1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="AAF Delta 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={8025.4507,30.578711,10828.048};
+					id=457;
+					side="GUER";
+					vehicle="I_Soldier_AR_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitAAF_D1_AR";
+					init="GrpAAF_D1 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="AAF Delta 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={8028.3901,30.432774,10828.005};
+					id=458;
+					side="GUER";
+					vehicle="I_Soldier_AAR_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitAAF_D1_AAR";
+					init="GrpAAF_D1 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="AAF Delta 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={8031.1831,30.442307,10828.036};
+					id=459;
+					side="GUER";
+					vehicle="I_Soldier_LAT_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitAAF_D1_AT";
+					init="GrpAAF_D1 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="AAF Delta 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item169
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={8021.4233,32.233387,10811.588};
+					id=460;
+					side="GUER";
+					vehicle="I_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitAAF_D2_FTL";
+					init="GrpAAF_D2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="AAF Delta 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={8025.3179,32.276722,10810.536};
+					id=461;
+					side="GUER";
+					vehicle="I_Soldier_AR_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitAAF_D2_AR";
+					init="GrpAAF_D2 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="AAF Delta 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={8028.3843,31.991032,10810.427};
+					id=462;
+					side="GUER";
+					vehicle="I_Soldier_AAR_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitAAF_D2_AAR";
+					init="GrpAAF_D2 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="AAF Delta 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={8030.9897,31.740217,10810.47};
+					id=463;
+					side="GUER";
+					vehicle="I_Soldier_LAT_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitAAF_D2_AT";
+					init="GrpAAF_D2 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="AAF Delta 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item170
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8022.7021,24.21928,10870.959};
+					id=464;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="F3_preMount_AAF_4";
+					init="[synchronizedObjects this,[""GrpAAF_CSL"",""GrpAAF_C1"",""GrpAAF_C2""],true,false] call f_fnc_mountGroups;";
 				};
 			};
 		};
@@ -6371,6 +6889,178 @@ class Mission
 				};
 			};
 		};
+				class Item159
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8568.4727,15.72347,10620.237};
+					id=432;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="F3_preMount_FIA_4";
+					init="[synchronizedObjects this,[""GrpFIA_DSL"",""GrpFIA_D1"",""GrpFIA_D2""],true,false] call f_fnc_mountGroups;";
+					syncId=1;
+					synchronizations[]={1};
+				};
+			};
+		};
+		class Item160
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={8570.1094,15.537614,10592.393};
+					id=433;
+					side="WEST";
+					vehicle="B_G_Soldier_SL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					text="UnitFIA_DSL_SL";
+					init="GrpFIA_DSL = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="FIA Delta Squad Leader";
+				};
+				class Item1
+				{
+					position[]={8572.625,15.645616,10590.725};
+					id=434;
+					side="WEST";
+					vehicle="B_G_medic_F";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitFIA_DSL_M";
+					init="GrpFIA_DSL = group this; [""m"",this] call f_fnc_assignGear;";
+					description="FIA Delta Medic";
+				};
+			};
+		};
+		class Item161
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={8570.3828,14.955927,10576.752};
+					id=435;
+					side="WEST";
+					vehicle="B_G_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitFIA_D1_FTL";
+					init="GrpFIA_D1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="FIA Delta 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={8573.3281,15.050298,10575.154};
+					id=436;
+					side="WEST";
+					vehicle="B_G_Soldier_AR_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitFIA_D1_AR";
+					init="GrpFIA_D1 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="FIA Delta 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={8576.499,15.126307,10575.123};
+					id=437;
+					side="WEST";
+					vehicle="B_G_Soldier_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitFIA_D1_AAR";
+					init="GrpFIA_D1 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="FIA Delta 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={8579.7998,15.205405,10575.072};
+					id=438;
+					side="WEST";
+					vehicle="B_G_Soldier_LAT_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitFIA_D1_AT";
+					init="GrpFIA_D1 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="FIA Delta 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item162
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={8570,15.853314,10560.806};
+					id=439;
+					side="WEST";
+					vehicle="B_G_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitFIA_D2_FTL";
+					init="GrpFIA_D2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="FIA Delta 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={8572.9805,16.029772,10559.346};
+					id=440;
+					side="WEST";
+					vehicle="B_G_Soldier_AR_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitFIA_D2_AR";
+					init="GrpFIA_D2 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="FIA Delta 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={8576.0693,16.151932,10559.264};
+					id=441;
+					side="WEST";
+					vehicle="B_G_Soldier_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitFIA_D2_AAR";
+					init="GrpFIA_D2 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="FIA Delta 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={8579.3701,16.273861,10559.236};
+					id=442;
+					side="WEST";
+					vehicle="B_G_Soldier_LAT_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitFIA_D2_AT";
+					init="GrpFIA_D2 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="FIA Delta 2 Rifleman (AT)";
+				};
+			};
+		};
 		class Item145
 		{
 			side="WEST";
@@ -6757,696 +7447,6 @@ class Mission
 					skill=0.60000002;
 					init="GrpFIA_JIP = group this; nul = [this] execVM ""f\JIP\f_JIP_addReinforcementOptionsAction.sqf"";";
 					description="FIA RESERVED FOR JIP";
-				};
-			};
-		};
-		class Item155
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=2;
-				class Item0
-				{
-					position[]={8524.96,33.495884,10900.057};
-					id=421;
-					side="WEST";
-					vehicle="B_Soldier_SL_F";
-					player="PLAY CDG";
-					leader=1;
-					rank="SERGEANT";
-					skill=0.60000002;
-					text="UnitNATO_DSL_SL";
-					init="GrpNATO_DSL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="NATO Delta Squad Leader";
-				};
-				class Item1
-				{
-					position[]={8527.4756,33.811462,10898.389};
-					id=422;
-					side="WEST";
-					vehicle="B_medic_F";
-					player="PLAY CDG";
-					rank="CORPORAL";
-					skill=0.60000002;
-					text="UnitNATO_DSL_M";
-					init="GrpNATO_DSL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="NATO Delta Medic";
-				};
-			};
-		};
-		class Item156
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=4;
-				class Item0
-				{
-					position[]={8525.2334,32.541344,10884.418};
-					id=423;
-					side="WEST";
-					vehicle="B_Soldier_TL_F";
-					player="PLAY CDG";
-					leader=1;
-					rank="CORPORAL";
-					skill=0.60000002;
-					text="UnitNATO_D1_FTL";
-					init="GrpNATO_D1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="NATO Delta 1 Fireteam Leader";
-				};
-				class Item1
-				{
-					position[]={8528.1787,32.663635,10882.82};
-					id=424;
-					side="WEST";
-					vehicle="B_soldier_AR_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitNATO_D1_AR";
-					init="GrpNATO_D1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="NATO Delta 1 Automatic Rifleman";
-				};
-				class Item2
-				{
-					position[]={8531.3506,32.948063,10882.789};
-					id=425;
-					side="WEST";
-					vehicle="B_soldier_AAR_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitNATO_D1_AAR";
-					init="GrpNATO_D1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="NATO Delta 1 Assistant Automatic Rifleman";
-				};
-				class Item3
-				{
-					position[]={8534.6514,33.242352,10882.738};
-					id=426;
-					side="WEST";
-					vehicle="B_soldier_LAT_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitNATO_D1_AT";
-					init="GrpNATO_D1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="NATO Delta 1 Rifleman (AT)";
-				};
-			};
-		};
-		class Item157
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=4;
-				class Item0
-				{
-					position[]={8524.8506,31.34779,10868.473};
-					id=427;
-					side="WEST";
-					vehicle="B_Soldier_TL_F";
-					player="PLAY CDG";
-					leader=1;
-					rank="CORPORAL";
-					skill=0.60000002;
-					text="UnitNATO_D2_FTL";
-					init="GrpNATO_D2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="NATO Delta 2 Fireteam Leader";
-				};
-				class Item1
-				{
-					position[]={8527.8311,31.452255,10867.012};
-					id=428;
-					side="WEST";
-					vehicle="B_soldier_AR_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitNATO_D2_AR";
-					init="GrpNATO_D2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="NATO Delta 2 Automatic Rifleman";
-				};
-				class Item2
-				{
-					position[]={8530.9189,31.629847,10866.93};
-					id=429;
-					side="WEST";
-					vehicle="B_soldier_AAR_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitNATO_D2_AAR";
-					init="GrpNATO_D2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="NATO Delta 2 Assistant Automatic Rifleman";
-				};
-				class Item3
-				{
-					position[]={8534.2197,31.819258,10866.902};
-					id=430;
-					side="WEST";
-					vehicle="B_soldier_LAT_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitNATO_D2_AT";
-					init="GrpNATO_D2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="NATO Delta 2 Rifleman (AT)";
-				};
-			};
-		};
-		class Item158
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={8524.7051,37.019722,10933.927};
-					id=431;
-					side="LOGIC";
-					vehicle="Logic";
-					leader=1;
-					skill=0.60000002;
-					text="F3_preMount_NATO_4";
-					init="[synchronizedObjects this,[""GrpNATO_DSL"",""GrpNATO_D1"",""GrpNATO_D2""],true,false] call f_fnc_mountGroups;";
-				};
-			};
-		};
-		class Item159
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={8568.4727,15.72347,10620.237};
-					id=432;
-					side="LOGIC";
-					vehicle="Logic";
-					leader=1;
-					skill=0.60000002;
-					text="F3_preMount_FIA_4";
-					init="[synchronizedObjects this,[""GrpFIA_DSL"",""GrpFIA_D1"",""GrpFIA_D2""],true,false] call f_fnc_mountGroups;";
-					syncId=1;
-					synchronizations[]={1};
-				};
-			};
-		};
-		class Item160
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=2;
-				class Item0
-				{
-					position[]={8570.1094,15.537614,10592.393};
-					id=433;
-					side="WEST";
-					vehicle="B_G_Soldier_SL_F";
-					player="PLAY CDG";
-					leader=1;
-					rank="SERGEANT";
-					skill=0.60000002;
-					text="UnitFIA_DSL_SL";
-					init="GrpFIA_DSL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="FIA Delta Squad Leader";
-				};
-				class Item1
-				{
-					position[]={8572.625,15.645616,10590.725};
-					id=434;
-					side="WEST";
-					vehicle="B_G_medic_F";
-					player="PLAY CDG";
-					rank="CORPORAL";
-					skill=0.60000002;
-					text="UnitFIA_DSL_M";
-					init="GrpFIA_DSL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="FIA Delta Medic";
-				};
-			};
-		};
-		class Item161
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=4;
-				class Item0
-				{
-					position[]={8570.3828,14.955927,10576.752};
-					id=435;
-					side="WEST";
-					vehicle="B_G_Soldier_TL_F";
-					player="PLAY CDG";
-					leader=1;
-					rank="CORPORAL";
-					skill=0.60000002;
-					text="UnitFIA_D1_FTL";
-					init="GrpFIA_D1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="FIA Delta 1 Fireteam Leader";
-				};
-				class Item1
-				{
-					position[]={8573.3281,15.050298,10575.154};
-					id=436;
-					side="WEST";
-					vehicle="B_G_Soldier_AR_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitFIA_D1_AR";
-					init="GrpFIA_D1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="FIA Delta 1 Automatic Rifleman";
-				};
-				class Item2
-				{
-					position[]={8576.499,15.126307,10575.123};
-					id=437;
-					side="WEST";
-					vehicle="B_G_Soldier_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitFIA_D1_AAR";
-					init="GrpFIA_D1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="FIA Delta 1 Assistant Automatic Rifleman";
-				};
-				class Item3
-				{
-					position[]={8579.7998,15.205405,10575.072};
-					id=438;
-					side="WEST";
-					vehicle="B_G_Soldier_LAT_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitFIA_D1_AT";
-					init="GrpFIA_D1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="FIA Delta 1 Rifleman (AT)";
-				};
-			};
-		};
-		class Item162
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=4;
-				class Item0
-				{
-					position[]={8570,15.853314,10560.806};
-					id=439;
-					side="WEST";
-					vehicle="B_G_Soldier_TL_F";
-					player="PLAY CDG";
-					leader=1;
-					rank="CORPORAL";
-					skill=0.60000002;
-					text="UnitFIA_D2_FTL";
-					init="GrpFIA_D2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="FIA Delta 2 Fireteam Leader";
-				};
-				class Item1
-				{
-					position[]={8572.9805,16.029772,10559.346};
-					id=440;
-					side="WEST";
-					vehicle="B_G_Soldier_AR_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitFIA_D2_AR";
-					init="GrpFIA_D2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="FIA Delta 2 Automatic Rifleman";
-				};
-				class Item2
-				{
-					position[]={8576.0693,16.151932,10559.264};
-					id=441;
-					side="WEST";
-					vehicle="B_G_Soldier_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitFIA_D2_AAR";
-					init="GrpFIA_D2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="FIA Delta 2 Assistant Automatic Rifleman";
-				};
-				class Item3
-				{
-					position[]={8579.3701,16.273861,10559.236};
-					id=442;
-					side="WEST";
-					vehicle="B_G_Soldier_LAT_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitFIA_D2_AT";
-					init="GrpFIA_D2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="FIA Delta 2 Rifleman (AT)";
-				};
-			};
-		};
-		class Item163
-		{
-			side="EAST";
-			class Vehicles
-			{
-				items=2;
-				class Item0
-				{
-					position[]={8854.5889,31.676922,10907.401};
-					id=443;
-					side="EAST";
-					vehicle="O_Soldier_SL_F";
-					player="PLAY CDG";
-					leader=1;
-					lock="UNLOCKED";
-					rank="SERGEANT";
-					skill=0.60000002;
-					text="UnitCSAT_DSL_SL";
-					init="GrpCSAT_DSL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="CSAT Delta Squad Leader";
-				};
-				class Item1
-				{
-					position[]={8857.0674,31.696253,10905.792};
-					id=444;
-					side="EAST";
-					vehicle="O_medic_F";
-					player="PLAY CDG";
-					lock="UNLOCKED";
-					rank="CORPORAL";
-					skill=0.60000002;
-					text="UnitCSAT_DSL_M";
-					init="GrpCSAT_DSL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="CSAT Delta Medic";
-				};
-			};
-		};
-		class Item164
-		{
-			side="EAST";
-			class Vehicles
-			{
-				items=4;
-				class Item0
-				{
-					position[]={8854.2686,31.706409,10890.452};
-					id=445;
-					side="EAST";
-					vehicle="O_Soldier_TL_F";
-					player="PLAY CDG";
-					leader=1;
-					lock="UNLOCKED";
-					rank="CORPORAL";
-					skill=0.60000002;
-					text="UnitCSAT_D1_FTL";
-					init="GrpCSAT_D1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="CSAT Delta 1 Fireteam Leader";
-				};
-				class Item1
-				{
-					position[]={8857.1787,31.745283,10888.854};
-					id=446;
-					side="EAST";
-					vehicle="O_Soldier_AR_F";
-					player="PLAY CDG";
-					lock="UNLOCKED";
-					skill=0.60000002;
-					text="UnitCSAT_D1_AR";
-					init="GrpCSAT_D1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="CSAT Delta 1 Automatic Rifleman";
-				};
-				class Item2
-				{
-					position[]={8860.6201,31.74025,10888.835};
-					id=447;
-					side="EAST";
-					vehicle="O_Soldier_AAR_F";
-					player="PLAY CDG";
-					lock="UNLOCKED";
-					skill=0.60000002;
-					text="UnitCSAT_D1_AAR";
-					init="GrpCSAT_D1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="CSAT Delta 1 Assistant Automatic Rifleman";
-				};
-				class Item3
-				{
-					position[]={8864.1006,31.721272,10888.679};
-					id=448;
-					side="EAST";
-					vehicle="O_Soldier_LAT_F";
-					player="PLAY CDG";
-					lock="UNLOCKED";
-					skill=0.60000002;
-					text="UnitCSAT_D1_AT";
-					init="GrpCSAT_D1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="CSAT Delta 1 Rifleman (AT)";
-				};
-			};
-		};
-		class Item165
-		{
-			side="EAST";
-			class Vehicles
-			{
-				items=4;
-				class Item0
-				{
-					position[]={8854.1787,31.60717,10875.39};
-					id=449;
-					side="EAST";
-					vehicle="O_Soldier_TL_F";
-					player="PLAY CDG";
-					leader=1;
-					lock="UNLOCKED";
-					rank="CORPORAL";
-					skill=0.60000002;
-					text="UnitCSAT_D2_FTL";
-					init="GrpCSAT_D2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="CSAT Delta 2 Fireteam Leader";
-				};
-				class Item1
-				{
-					position[]={8857.0693,31.678526,10873.757};
-					id=450;
-					side="EAST";
-					vehicle="O_Soldier_AR_F";
-					player="PLAY CDG";
-					lock="UNLOCKED";
-					skill=0.60000002;
-					text="UnitCSAT_D2_AR";
-					init="GrpCSAT_D2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="CSAT Delta 2 Automatic Rifleman";
-				};
-				class Item2
-				{
-					position[]={8860.4307,31.775951,10873.647};
-					id=451;
-					side="EAST";
-					vehicle="O_Soldier_AAR_F";
-					player="PLAY CDG";
-					lock="UNLOCKED";
-					skill=0.60000002;
-					text="UnitCSAT_D2_AAR";
-					init="GrpCSAT_D2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="CSAT Delta 2 Assistant Automatic Rifleman";
-				};
-				class Item3
-				{
-					position[]={8864.0068,31.804546,10873.464};
-					id=452;
-					side="EAST";
-					vehicle="O_Soldier_LAT_F";
-					player="PLAY CDG";
-					lock="UNLOCKED";
-					skill=0.60000002;
-					text="UnitCSAT_D2_AT";
-					init="GrpCSAT_D2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="CSAT Delta 2 Rifleman (AT)";
-				};
-			};
-		};
-		class Item166
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={8854.2373,31.667238,10940.851};
-					id=453;
-					side="LOGIC";
-					vehicle="Logic";
-					leader=1;
-					skill=0.60000002;
-					text="F3_preMount_CSAT_4";
-					init="[synchronizedObjects this,[""GrpCSAT_DSL"",""GrpCSAT_D1"",""GrpCSAT_D2""],true,false] call f_fnc_mountGroups;";
-				};
-			};
-		};
-		class Item167
-		{
-			side="GUER";
-			class Vehicles
-			{
-				items=2;
-				class Item0
-				{
-					position[]={8022.1772,29.066196,10844.489};
-					id=454;
-					side="GUER";
-					vehicle="I_Soldier_SL_F";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.60000002;
-					text="UnitAAF_DSL_SL";
-					init="GrpAAF_DSL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="AAF Delta Squad Leader";
-				};
-				class Item1
-				{
-					position[]={8025.4233,29.541475,10842.735};
-					id=455;
-					side="GUER";
-					vehicle="I_medic_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitAAF_DSL_M";
-					init="GrpAAF_DSL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="AAF Delta Medic";
-				};
-			};
-		};
-		class Item168
-		{
-			side="GUER";
-			class Vehicles
-			{
-				items=4;
-				class Item0
-				{
-					position[]={8021.2476,30.609934,10829.653};
-					id=456;
-					side="GUER";
-					vehicle="I_Soldier_TL_F";
-					player="PLAY CDG";
-					leader=1;
-					rank="CORPORAL";
-					skill=0.60000002;
-					text="UnitAAF_D1_FTL";
-					init="GrpAAF_D1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="AAF Delta 1 Fireteam Leader";
-				};
-				class Item1
-				{
-					position[]={8025.4507,30.578711,10828.048};
-					id=457;
-					side="GUER";
-					vehicle="I_Soldier_AR_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitAAF_D1_AR";
-					init="GrpAAF_D1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="AAF Delta 1 Automatic Rifleman";
-				};
-				class Item2
-				{
-					position[]={8028.3901,30.432774,10828.005};
-					id=458;
-					side="GUER";
-					vehicle="I_Soldier_AAR_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitAAF_D1_AAR";
-					init="GrpAAF_D1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="AAF Delta 1 Assistant Automatic Rifleman";
-				};
-				class Item3
-				{
-					position[]={8031.1831,30.442307,10828.036};
-					id=459;
-					side="GUER";
-					vehicle="I_Soldier_LAT_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitAAF_D1_AT";
-					init="GrpAAF_D1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="AAF Delta 1 Rifleman (AT)";
-				};
-			};
-		};
-		class Item169
-		{
-			side="GUER";
-			class Vehicles
-			{
-				items=4;
-				class Item0
-				{
-					position[]={8021.4233,32.233387,10811.588};
-					id=460;
-					side="GUER";
-					vehicle="I_Soldier_TL_F";
-					player="PLAY CDG";
-					leader=1;
-					rank="CORPORAL";
-					skill=0.60000002;
-					text="UnitAAF_D2_FTL";
-					init="GrpAAF_D2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="AAF Delta 2 Fireteam Leader";
-				};
-				class Item1
-				{
-					position[]={8025.3179,32.276722,10810.536};
-					id=461;
-					side="GUER";
-					vehicle="I_Soldier_AR_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitAAF_D2_AR";
-					init="GrpAAF_D2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="AAF Delta 2 Automatic Rifleman";
-				};
-				class Item2
-				{
-					position[]={8028.3843,31.991032,10810.427};
-					id=462;
-					side="GUER";
-					vehicle="I_Soldier_AAR_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitAAF_D2_AAR";
-					init="GrpAAF_D2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="AAF Delta 2 Assistant Automatic Rifleman";
-				};
-				class Item3
-				{
-					position[]={8030.9897,31.740217,10810.47};
-					id=463;
-					side="GUER";
-					vehicle="I_Soldier_LAT_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					text="UnitAAF_D2_AT";
-					init="GrpAAF_D2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="AAF Delta 2 Rifleman (AT)";
-				};
-			};
-		};
-		class Item170
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={8022.7021,24.21928,10870.959};
-					id=464;
-					side="LOGIC";
-					vehicle="Logic";
-					leader=1;
-					skill=0.60000002;
-					text="F3_preMount_AAF_4";
-					init="[synchronizedObjects this,[""GrpAAF_CSL"",""GrpAAF_C1"",""GrpAAF_C2""],true,false] call f_fnc_mountGroups;";
 				};
 			};
 		};
