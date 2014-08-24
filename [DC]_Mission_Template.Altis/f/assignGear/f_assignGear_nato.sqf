@@ -61,11 +61,11 @@ _silencer1 = "muzzle_snds_M";	// 5.56 suppressor
 _silencer2 = "muzzle_snds_H";	// 6.5 suppressor
 
 _scope1 = "optic_Holosight";	// Holosight
-_scope2 = "optic_MRCO";			// MRCO Scope - 1x - 6x
+_scope2 = "optic_HAMR";			// RCO Scope - 1x - 10x
 _scope3 = "optic_SOS";			// SOS Scope - 18x - 75x
 
 // Default setup
-_attachments = [_attach1,_scope1]; // The default attachment set for most units, overwritten in the individual unitType
+_attachments = [_attach1,_scope2]; // The default attachment set for most units, overwritten in the individual unitType
 
 // [] = remove all
 // [_attach1,_scope1,_silencer] = remove all, add items assigned in _attach1, _scope1 and _silencer1
@@ -113,9 +113,9 @@ _glriflemag_tr = "30Rnd_65x39_caseless_mag_Tracer";
 _glmag = "1Rnd_HE_Grenade_shell";
 
 // Smoke for FTLs, Squad Leaders, etc
-_glsmokewhite = "1Rnd_Smoke_Grenade_shell";
-_glsmokegreen = "1Rnd_SmokeGreen_Grenade_shell";
-_glsmokered = "1Rnd_SmokeRed_Grenade_shell";
+_glsmokewhite = "3Rnd_Smoke_Grenade_shell";
+_glsmokegreen = "3Rnd_SmokeGreen_Grenade_shell";
+_glsmokered = "3Rnd_SmokeRed_Grenade_shell";
 
 // Flares for FTLs, Squad Leaders, etc
 _glflarewhite = "3Rnd_UGL_FlareWhite_F";
@@ -169,9 +169,9 @@ _baghsamag = "B_HMG_01_support_F";			// used by Heavy SAM assistant gunner
 // UNIQUE, ROLE-SPECIFIC EQUIPMENT
 
 // Automatic Rifleman
-_AR = "arifle_MX_SW_F";
-_ARmag = "100Rnd_65x39_caseless_mag";
-_ARmag_tr = "100Rnd_65x39_caseless_mag_Tracer";
+_AR = "LMG_Mk200_F";
+_ARmag = "200Rnd_65x39_cased_Box";
+_ARmag_tr = "200Rnd_65x39_cased_Box_Tracer";
 
 // Medium MG
 _MMG = "LMG_Zafir_F";
@@ -183,9 +183,9 @@ _RAT = "launch_NLAW_F";
 _RATmag = "NLAW_F";
 
 // Medium AT
-_MAT = "launch_NLAW_F";
-_MATmag1 = "NLAW_F";
-_MATmag2 = "NLAW_F";
+_MAT = "launch_B_Titan_short_F";
+_MATmag1 = "Titan_AT";
+_MATmag2 = "Titan_AP";
 
 // Surface Air
 _SAM = "launch_B_Titan_F";
