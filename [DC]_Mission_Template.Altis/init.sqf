@@ -205,3 +205,9 @@ f_var_cachingAggressiveness = 1;
 call compileFinal preprocessFileLineNumbers "FAR_revive\FAR_revive_init.sqf";
 
 // ====================================================================================
+
+// VComAI - AI Reactive Squads Enhancement
+
+[] execVM "VCOMAI\init.sqf";
+
+// ====================================================================================
