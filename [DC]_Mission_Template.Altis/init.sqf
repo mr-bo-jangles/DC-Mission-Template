@@ -199,3 +199,9 @@ f_var_cachingAggressiveness = 1;
 [] execVM "f\medical\medical_init.sqf";
 
 // ====================================================================================
+
+// Farooq - Medical System
+
+call compileFinal preprocessFileLineNumbers "FAR_revive\FAR_revive_init.sqf";
+
+// ====================================================================================
