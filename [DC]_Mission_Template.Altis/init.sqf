@@ -72,10 +72,10 @@ f_script_setLocalVars = [0] execVM "f\common\f_setLocalVars.sqf";
 // F3 - Automatic Body Removal
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-// f_var_removeBodyDelay = 180;
-// f_var_removeBodyDistance = 500;
-// f_var_doNotRemoveBodies = [];
-// [] execVM "f\removeBody\f_addRemoveBodyEH.sqf";
+f_var_removeBodyDelay = 180;
+f_var_removeBodyDistance = 500;
+f_var_doNotRemoveBodies = [];
+[] execVM "f\removeBody\f_addRemoveBodyEH.sqf";
 
 // ====================================================================================
 
@@ -107,13 +107,13 @@ f_script_setLocalVars = [0] execVM "f\common\f_setLocalVars.sqf";
 // [[GroupName or SIDE],100,{code}] execVM "f\casualtiesCap\f_CasualtiesCapCheck.sqf";
 
 // BLUFOR > NATO
-// [BLUFOR,100,1] execVM "f\casualtiesCap\f_CasualtiesCapCheck.sqf";
+[BLUFOR,30,1] execVM "f\casualtiesCap\f_CasualtiesCapCheck.sqf";
 
 // OPFOR > CSAT
-// [OPFOR,100,1] execVM "f\casualtiesCap\f_CasualtiesCapCheck.sqf";
+[OPFOR,30,1] execVM "f\casualtiesCap\f_CasualtiesCapCheck.sqf";
 
 // INDEPENDENT > AAF
-// [INDEPENDENT,100,1] execVM "f\casualtiesCap\f_CasualtiesCapCheck.sqf";
+[INDEPENDENT,30,1] execVM "f\casualtiesCap\f_CasualtiesCapCheck.sqf";
 
 // ====================================================================================
 
@@ -128,10 +128,10 @@ f_script_setLocalVars = [0] execVM "f\common\f_setLocalVars.sqf";
 // F3 - Name Tags
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-// f_showGroup_Nametags = true;				// Display unit's group (uses GroupID)
-// f_showDistance_Nametags = true;			// Show distance to player
-// f_showVehicle_Nametags = true;			// Show vehicle player is in
-// [20] execVM "f\nametag\f_nametags.sqf";
+f_showGroup_Nametags = true;				// Display unit's group (uses GroupID)
+f_showDistance_Nametags = true;			// Show distance to player
+f_showVehicle_Nametags = true;			// Show vehicle player is in
+[20] execVM "f\nametag\f_nametags.sqf";
 
 // ====================================================================================
 
@@ -182,7 +182,7 @@ f_var_JIP_GearMenu = true;			// Can JIP/respawned players select their own gear?
 // 1 - cache only non-leaders and non-drivers
 // 2 - cache all non-moving units, always exclude vehicle drivers
 // 3 - cache all units, incl. group leaders and vehicle drivers
-f_var_cachingAggressiveness = 2;
+f_var_cachingAggressiveness = 1;
 
 // ====================================================================================
 
