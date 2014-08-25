@@ -110,8 +110,8 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="UnitNATO_CO";
-					init="GrpNATO_CO = group this; [""co"",this] call f_fnc_assignGear;";
-					description="NATO Commander";
+					init="GrpNATO_1_CO = group this; [""co"",this] call f_fnc_assignGear;";
+					description="NATO 1 - Commander";
 				};
 				class Item1
 				{
@@ -123,8 +123,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitNATO_CO_M";
-					init="GrpNATO_CO = group this; [""m"",this] call f_fnc_assignGear;";
-					description="NATO Medic";
+					init="GrpNATO_1_CO = group this; [""m"",this] call f_fnc_assignGear;";
+					description="NATO 1 - Medic";
 				};
 				class Item2
 				{
@@ -136,8 +136,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitNATO_CO_UAV";
-					init="GrpNATO_CO = group this; [""uav"",this] call f_fnc_assignGear;";
-					description="NATO UAV Operator";
+					init="GrpNATO_1_CO = group this; [""uav"",this] call f_fnc_assignGear;";
+					description="NATO 1 - UAV Operator";
 				};
 				class Item3
 				{
@@ -148,8 +148,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_CO_D";
-					init="GrpNATO_CO = group this; [""vd"",this] call f_fnc_assignGear;";
-					description="NATO Driver (Repair)";
+					init="GrpNATO_1_CO = group this; [""vd"",this] call f_fnc_assignGear;";
+					description="NATO 1 - Driver (Repair)";
 				};
 			};
 		};
@@ -170,8 +170,8 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="UnitNATO_DC";
-					init="GrpNATO_DC = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="NATO Deputy Commander";
+					init="GrpNATO_1_DC = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="NATO 1 - Deputy Commander";
 				};
 				class Item1
 				{
@@ -183,8 +183,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitNATO_DC_M";
-					init="GrpNATO_DC = group this; [""m"",this] call f_fnc_assignGear;";
-					description="NATO Medic";
+					init="GrpNATO_1_DC = group this; [""m"",this] call f_fnc_assignGear;";
+					description="NATO 1 - Medic";
 				};
 				class Item2
 				{
@@ -196,8 +196,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitNATO_DC_UAV";
-					init="GrpNATO_DC = group this; [""uav"",this] call f_fnc_assignGear;";
-					description="NATO UAV Operator";
+					init="GrpNATO_1_DC = group this; [""uav"",this] call f_fnc_assignGear;";
+					description="NATO 1 - UAV Operator";
 				};
 				class Item3
 				{
@@ -208,8 +208,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_DC_D";
-					init="GrpNATO_DC = group this; [""vd"",this] call f_fnc_assignGear;";
-					description="NATO Driver (Repair)";
+					init="GrpNATO_1_DC = group this; [""vd"",this] call f_fnc_assignGear;";
+					description="NATO 1 - Driver (Repair)";
 				};
 			};
 		};
@@ -230,8 +230,8 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="UnitNATO_ASL_SL";
-					init="GrpNATO_ASL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="NATO Alpha Squad Leader";
+					init="GrpNATO_1_1_SL = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 1 Squad Leader";
 				};
 				class Item1
 				{
@@ -243,8 +243,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitNATO_ASL_M";
-					init="GrpNATO_ASL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="NATO Alpha Medic";
+					init="GrpNATO_1_1_SL = group this; [""m"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 1 Medic";
 				};
 			};
 		};
@@ -265,8 +265,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitNATO_A1_FTL";
-					init="GrpNATO_A1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="NATO Alpha 1 Fireteam Leader";
+					init="GrpNATO_1_1_1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 1 - 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -277,8 +277,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_A1_AR";
-					init="GrpNATO_A1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="NATO Alpha 1 Automatic Rifleman";
+					init="GrpNATO_1_1_1 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 1 - 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -289,8 +289,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_A1_AAR";
-					init="GrpNATO_A1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="NATO Alpha 1 Assistant Automatic Rifleman";
+					init="GrpNATO_1_1_1 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 1 - 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -301,8 +301,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_A1_AT";
-					init="GrpNATO_A1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="NATO Alpha 1 Rifleman (AT)";
+					init="GrpNATO_1_1_1 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 1 - 1 Rifleman (AT)";
 				};
 			};
 		};
@@ -323,8 +323,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitNATO_A2_FTL";
-					init="GrpNATO_A2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="NATO Alpha 2 Fireteam Leader";
+					init="GrpNATO_1_1_2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 1 - 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -335,8 +335,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_A2_AR";
-					init="GrpNATO_A2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="NATO Alpha 2 Automatic Rifleman";
+					init="GrpNATO_1_1_2 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 1 - 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -347,8 +347,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_A2_AAR";
-					init="GrpNATO_A2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="NATO Alpha 2 Assistant Automatic Rifleman";
+					init="GrpNATO_1_1_2 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 1 - 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -359,8 +359,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_A2_AT";
-					init="GrpNATO_A2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="NATO Alpha 2 Rifleman (AT)";
+					init="GrpNATO_1_1_2 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 1 - 2 Rifleman (AT)";
 				};
 			};
 		};
@@ -381,8 +381,8 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="UnitNATO_BSL_SL";
-					init="GrpNATO_BSL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="NATO Bravo Squad Leader";
+					init="GrpNATO_1_2_SL = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 2 Squad Leader";
 				};
 				class Item1
 				{
@@ -394,8 +394,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitNATO_BSL_M";
-					init="GrpNATO_BSL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="NATO Bravo Medic";
+					init="GrpNATO_1_2_SL = group this; [""m"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 2 Medic";
 				};
 			};
 		};
@@ -416,8 +416,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitNATO_B1_FTL";
-					init="GrpNATO_B1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="NATO Bravo 1 Fireteam Leader";
+					init="GrpNATO_1_2_1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 2 - 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -428,8 +428,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_B1_AR";
-					init="GrpNATO_B1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="NATO Bravo 1 Automatic Rifleman";
+					init="GrpNATO_1_2_1 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 2 - 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -440,8 +440,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_B1_AAR";
-					init="GrpNATO_B1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="NATO Bravo 1 Assistant Automatic Rifleman";
+					init="GrpNATO_1_2_1 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="NATO 1 -2 - 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -452,8 +452,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_B1_AT";
-					init="GrpNATO_B1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="NATO Bravo 1 Rifleman (AT)";
+					init="GrpNATO_1_2_1 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 2 - 1 Rifleman (AT)";
 				};
 			};
 		};
@@ -474,8 +474,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitNATO_B2_FTL";
-					init="GrpNATO_B2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="NATO Bravo 2 Fireteam Leader";
+					init="GrpNATO_1_2_2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 2 - 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -486,8 +486,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_B2_AR";
-					init="GrpNATO_B2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="NATO Bravo 2 Automatic Rifleman";
+					init="GrpNATO_1_2_2 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 2 - 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -498,8 +498,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_B2_AAR";
-					init="GrpNATO_B2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="NATO Bravo 2 Assistant Automatic Rifleman";
+					init="GrpNATO_1_2_2 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 2 - 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -510,8 +510,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_B2_AT";
-					init="GrpNATO_B2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="NATO Bravo 2 Rifleman (AT)";
+					init="GrpNATO_1_2_2 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 2 - 2 Rifleman (AT)";
 				};
 			};
 		};
@@ -532,8 +532,8 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="UnitNATO_CSL_SL";
-					init="GrpNATO_CSL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="NATO Charlie Squad Leader";
+					init="GrpNATO_1_3_SL = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 3 Squad Leader";
 				};
 				class Item1
 				{
@@ -545,8 +545,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitNATO_CSL_M";
-					init="GrpNATO_CSL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="NATO Charlie Medic";
+					init="GrpNATO_1_3_SL = group this; [""m"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 3 Medic";
 				};
 			};
 		};
@@ -567,8 +567,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitNATO_C1_FTL";
-					init="GrpNATO_C1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="NATO Charlie 1 Fireteam Leader";
+					init="GrpNATO_1_3_1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 3 - 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -579,8 +579,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_C1_AR";
-					init="GrpNATO_C1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="NATO Charlie 1 Automatic Rifleman";
+					init="GrpNATO_1_3_1 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 3 - 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -591,8 +591,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_C1_AAR";
-					init="GrpNATO_C1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="NATO Charlie 1 Assistant Automatic Rifleman";
+					init="GrpNATO_1_3_1 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 3 - 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -603,8 +603,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_C1_AT";
-					init="GrpNATO_C1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="NATO Charlie 1 Rifleman (AT)";
+					init="GrpNATO_1_3_1 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 3 - 1 Rifleman (AT)";
 				};
 			};
 		};
@@ -625,8 +625,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitNATO_C2_FTL";
-					init="GrpNATO_C2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="NATO Charlie 2 Fireteam Leader";
+					init="GrpNATO_1_3_2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 3 - 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -637,8 +637,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_C2_AR";
-					init="GrpNATO_C2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="NATO Charlie 2 Automatic Rifleman";
+					init="GrpNATO_1_3_2 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="NATO 1 -3 - 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -649,8 +649,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_C2_AAR";
-					init="GrpNATO_C2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="NATO Charlie 2 Assistant Automatic Rifleman";
+					init="GrpNATO_1_3_2 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 3 - 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -661,8 +661,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_C2_AT";
-					init="GrpNATO_C2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="NATO Charlie 2 Rifleman (AT)";
+					init="GrpNATO_1_3_2 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 3 - 2 Rifleman (AT)";
 				};
 			};
 		};
@@ -683,8 +683,8 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="UnitNATO_DSL_SL";
-					init="GrpNATO_DSL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="NATO Delta Squad Leader";
+					init="GrpNATO_1_4_SL = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 4 Squad Leader";
 				};
 				class Item1
 				{
@@ -696,8 +696,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitNATO_DSL_M";
-					init="GrpNATO_DSL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="NATO Delta Medic";
+					init="GrpNATO_1_4_SL = group this; [""m"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 4 Medic";
 				};
 			};
 		};
@@ -718,8 +718,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitNATO_D1_FTL";
-					init="GrpNATO_D1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="NATO Delta 1 Fireteam Leader";
+					init="GrpNATO_1_4_1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 4 - 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -730,8 +730,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_D1_AR";
-					init="GrpNATO_D1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="NATO Delta 1 Automatic Rifleman";
+					init="GrpNATO_1_4_1 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 4 - 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -742,8 +742,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_D1_AAR";
-					init="GrpNATO_D1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="NATO Delta 1 Assistant Automatic Rifleman";
+					init="GrpNATO_1_4_1 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 4 - 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -754,8 +754,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_D1_AT";
-					init="GrpNATO_D1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="NATO Delta 1 Rifleman (AT)";
+					init="GrpNATO_1_4_1 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 4 - 1 Rifleman (AT)";
 				};
 			};
 		};
@@ -776,8 +776,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitNATO_D2_FTL";
-					init="GrpNATO_D2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="NATO Delta 2 Fireteam Leader";
+					init="GrpNATO_1_4_2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 4 - 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -788,8 +788,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_D2_AR";
-					init="GrpNATO_D2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="NATO Delta 2 Automatic Rifleman";
+					init="GrpNATO_1_4_2 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 4 - 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -800,8 +800,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_D2_AAR";
-					init="GrpNATO_D2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="NATO Delta 2 Assistant Automatic Rifleman";
+					init="GrpNATO_1_4_2 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 4 - 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -812,8 +812,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitNATO_D2_AT";
-					init="GrpNATO_D2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="NATO Delta 2 Rifleman (AT)";
+					init="GrpNATO_1_4_2 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="NATO 1 - 4 - 2 Rifleman (AT)";
 				};
 			};
 		};
@@ -832,7 +832,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="F3_preMount_NATO_4";
-					init="[synchronizedObjects this,[""GrpNATO_DSL"",""GrpNATO_D1"",""GrpNATO_D2""],true,false] call f_fnc_mountGroups;";
+					init="[synchronizedObjects this,[""GrpNATO_1_4_SL"",""GrpNATO_1_4_1"",""GrpNATO_1_4_2""],true,false] call f_fnc_mountGroups;";
 				};
 			};
 		};
@@ -4707,7 +4707,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="F3_preMount_NATO";
-					init="[synchronizedObjects this,[""GrpNATO_ASL"",""GrpNATO_A1"",""GrpNATO_A2""],true,false] call f_fnc_mountGroups;";
+					init="[synchronizedObjects this,[""GrpNATO_1_1_SL"",""GrpNATO_1_1_1"",""GrpNATO_1_1_2""],true,false] call f_fnc_mountGroups;";
 				};
 			};
 		};
@@ -4821,7 +4821,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="F3_preMount_NATO_1";
-					init="[synchronizedObjects this,[""GrpNATO_BSL"",""GrpNATO_B1"",""GrpNATO_B2""],true,false] call f_fnc_mountGroups;";
+					init="[synchronizedObjects this,[""GrpNATO_1_2_SL"",""GrpNATO_1_2_1"",""GrpNATO_1_2_2""],true,false] call f_fnc_mountGroups;";
 				};
 			};
 		};
@@ -4840,7 +4840,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="F3_preMount_NATO_2";
-					init="[synchronizedObjects this,[""GrpNATO_CSL"",""GrpNATO_C1"",""GrpNATO_C2""],true,false] call f_fnc_mountGroups;";
+					init="[synchronizedObjects this,[""GrpNATO_1_3_SL"",""GrpNATO_1_3_1"",""GrpNATO_1_3_2""],true,false] call f_fnc_mountGroups;";
 				};
 			};
 		};
@@ -4859,7 +4859,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="F3_preMount_NATO_3";
-					init="[synchronizedObjects this,[""GrpNATO_CO"",""GrpNATO_DC""],true,false] call f_fnc_mountGroups;";
+					init="[synchronizedObjects this,[""GrpNATO_1_CO"",""GrpNATO_1_DC""],true,false] call f_fnc_mountGroups;";
 				};
 			};
 		};
