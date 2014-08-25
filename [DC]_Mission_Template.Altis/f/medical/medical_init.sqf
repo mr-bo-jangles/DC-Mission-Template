@@ -47,7 +47,7 @@ call
 		// If script is being run on a client
 		if (hasInterface) then
 		{
-			// This space reserved for Medix Init Script
+			[] execVM "medix\init.sqf";
 		};
 	};
 };
