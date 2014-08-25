@@ -158,8 +158,8 @@ class Params
     {
             title = "Medical System";
             values[] = {0,1,2,3,4};
-            texts[] = {"Arma 3 Default","F3 Simple Wounding System","Authentic Gameplay Mod","Farooq Revive","Medix Placeholder"};
-            default = 0;
+            texts[] = {"Arma 3 Default","F3 Simple Wounding System","Authentic Gameplay Mod","Farooq Revive","Medix"};
+            default = 4;
             code = "f_var_medical = %1";
     };
 
