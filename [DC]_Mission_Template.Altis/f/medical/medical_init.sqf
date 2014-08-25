@@ -32,4 +32,22 @@ call
 			[] execVM "f\medical\AGM_clientInit.sqf";
 		};
 	};
+	// Farooq intergration
+	if (f_var_medical == 3) exitWith
+	{
+		// If script is being run on a client
+		if (hasInterface) then
+		{
+			call compileFinal preprocessFileLineNumbers "FAR_revive\FAR_revive_init.sqf";
+		};
+	};
+	// Medix intergration
+	if (f_var_medical == 4) exitWith
+	{
+		// If script is being run on a client
+		if (hasInterface) then
+		{
+			// This space reserved for Medix Init Script
+		};
+	};
 };
