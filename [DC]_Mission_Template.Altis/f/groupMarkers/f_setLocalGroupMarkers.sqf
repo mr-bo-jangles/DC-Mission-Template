@@ -104,24 +104,24 @@ switch (_unitfaction) do
 
 	case "opf_f":
 	{
-		["GrpCSAT_CO", 0, "CO", "ColorYellow"] spawn f_fnc_localGroupMarker;
-		["GrpCSAT_DC", 0, "DC", "ColorYellow"] spawn f_fnc_localGroupMarker;
+		["GrpCSAT_1_CO", 0, "1-CO", "ColorYellow"] spawn f_fnc_localGroupMarker;
+		["GrpCSAT_1_DC", 0, "1-DC", "ColorYellow"] spawn f_fnc_localGroupMarker;
 
-		["GrpCSAT_ASL", 0, "ASL", "ColorRed"] spawn f_fnc_localGroupMarker;
-		["GrpCSAT_A1", 1, "A1", "ColorRed"] spawn f_fnc_localGroupMarker;
-		["GrpCSAT_A2", 1, "A2", "ColorRed"] spawn f_fnc_localGroupMarker;
+		["GrpCSAT_1_1_SL", 0, "1-1-SL", "ColorRed"] spawn f_fnc_localGroupMarker;
+		["GrpCSAT_1_1_1", 1, "1-1-1", "ColorRed"] spawn f_fnc_localGroupMarker;
+		["GrpCSAT_1_1_2", 1, "1-1-2", "ColorRed"] spawn f_fnc_localGroupMarker;
 
-		["GrpCSAT_BSL", 0, "BSL", "ColorBlue"] spawn f_fnc_localGroupMarker;
-		["GrpCSAT_B1", 1, "B1", "ColorBlue"] spawn f_fnc_localGroupMarker;
-		["GrpCSAT_B2", 1, "B2", "ColorBlue"] spawn f_fnc_localGroupMarker;
+		["GrpCSAT_1_2_SL", 0, "1-2-SL", "ColorBlue"] spawn f_fnc_localGroupMarker;
+		["GrpCSAT_1_2_1", 1, "1-2-1", "ColorBlue"] spawn f_fnc_localGroupMarker;
+		["GrpCSAT_1_2_2", 1, "1-2-2", "ColorBlue"] spawn f_fnc_localGroupMarker;
 
-		["GrpCSAT_CSL", 0, "CSL", "ColorGreen"] spawn f_fnc_localGroupMarker;
-		["GrpCSAT_C1", 1, "C1", "ColorGreen"] spawn f_fnc_localGroupMarker;
-		["GrpCSAT_C2", 1, "C2", "ColorGreen"] spawn f_fnc_localGroupMarker;
+		["GrpCSAT_1_3_SL", 0, "1-3-SL", "ColorGreen"] spawn f_fnc_localGroupMarker;
+		["GrpCSAT_1_3_1", 1, "1-3-1", "ColorGreen"] spawn f_fnc_localGroupMarker;
+		["GrpCSAT_1_3_2", 1, "1-3-2", "ColorGreen"] spawn f_fnc_localGroupMarker;
 
-		["GrpCSAT_DSL", 0, "CSL", "ColorPink"] spawn f_fnc_localGroupMarker;
-		["GrpCSAT_D1", 1, "C1", "ColorPink"] spawn f_fnc_localGroupMarker;
-		["GrpCSAT_D2", 1, "C2", "ColorPink"] spawn f_fnc_localGroupMarker;
+		["GrpCSAT_1_4_SL", 0, "1-4-SL", "ColorPink"] spawn f_fnc_localGroupMarker;
+		["GrpCSAT_1_4_1", 1, "1-4-1", "ColorPink"] spawn f_fnc_localGroupMarker;
+		["GrpCSAT_1_4_2", 1, "1-4-2", "ColorPink"] spawn f_fnc_localGroupMarker;
 
 		["GrpCSAT_MMG1", 2, "MMG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 		["GrpCSAT_HMG1",  2, "HMG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
@@ -171,24 +171,24 @@ switch (_unitfaction) do
 
 	case "ind_f":
 	{
-		["GrpAAF_CO", 0, "CO", "ColorYellow"] spawn f_fnc_localGroupMarker;
-		["GrpAAF_DC", 0, "DC", "ColorYellow"] spawn f_fnc_localGroupMarker;
+		["GrpAAF_1_CO", 0, "1-CO", "ColorYellow"] spawn f_fnc_localGroupMarker;
+		["GrpAAF_1_DC", 0, "1-DC", "ColorYellow"] spawn f_fnc_localGroupMarker;
 
-		["GrpAAF_ASL", 0, "ASL", "ColorRed"] spawn f_fnc_localGroupMarker;
-		["GrpAAF_A1", 1, "A1", "ColorRed"] spawn f_fnc_localGroupMarker;
-		["GrpAAF_A2", 1, "A2", "ColorRed"] spawn f_fnc_localGroupMarker;
+		["GrpAAF_1_1_SL", 0, "1-1-SL", "ColorRed"] spawn f_fnc_localGroupMarker;
+		["GrpAAF_1_1_1", 1, "1-1-1", "ColorRed"] spawn f_fnc_localGroupMarker;
+		["GrpAAF_1_1_2", 1, "1-1-2", "ColorRed"] spawn f_fnc_localGroupMarker;
 
-		["GrpAAF_BSL", 0, "BSL", "ColorBlue"] spawn f_fnc_localGroupMarker;
-		["GrpAAF_B1", 1, "B1", "ColorBlue"] spawn f_fnc_localGroupMarker;
-		["GrpAAF_B2", 1, "B2", "ColorBlue"] spawn f_fnc_localGroupMarker;
+		["GrpAAF_1_2_SL", 0, "1-2-SL", "ColorBlue"] spawn f_fnc_localGroupMarker;
+		["GrpAAF_1_2_1", 1, "1-2-1", "ColorBlue"] spawn f_fnc_localGroupMarker;
+		["GrpAAF_1_2_2", 1, "1-2-2", "ColorBlue"] spawn f_fnc_localGroupMarker;
 
-		["GrpAAF_CSL", 0, "CSL", "ColorGreen"] spawn f_fnc_localGroupMarker;
-		["GrpAAF_C1", 1, "C1", "ColorGreen"] spawn f_fnc_localGroupMarker;
-		["GrpAAF_C2", 1, "C2", "ColorGreen"] spawn f_fnc_localGroupMarker;
+		["GrpAAF_1_3_SL", 0, "1-3-SL", "ColorGreen"] spawn f_fnc_localGroupMarker;
+		["GrpAAF_1_3_1", 1, "1-3-1", "ColorGreen"] spawn f_fnc_localGroupMarker;
+		["GrpAAF_1_3_2", 1, "1-3-2", "ColorGreen"] spawn f_fnc_localGroupMarker;
 
-		["GrpAAF_DSL", 0, "CSL", "ColorPink"] spawn f_fnc_localGroupMarker;
-		["GrpAAF_D1", 1, "C1", "ColorPink"] spawn f_fnc_localGroupMarker;
-		["GrpAAF_D2", 1, "C2", "ColorPink"] spawn f_fnc_localGroupMarker;
+		["GrpAAF_1_4_SL", 0, "1-4-SL", "ColorPink"] spawn f_fnc_localGroupMarker;
+		["GrpAAF_1_4_1", 1, "1-4-1", "ColorPink"] spawn f_fnc_localGroupMarker;
+		["GrpAAF_1_4_2", 1, "1-4-2", "ColorPink"] spawn f_fnc_localGroupMarker;
 
 		["GrpAAF_MMG1", 2, "MMG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 		["GrpAAF_HMG1",  2, "HMG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
@@ -232,24 +232,24 @@ switch (_unitfaction) do
 
 	case "blu_g_f":
 	{
-		["GrpFIA_CO", 0, "CO", "ColorYellow"] spawn f_fnc_localGroupMarker;
-		["GrpFIA_DC", 0, "DC", "ColorYellow"] spawn f_fnc_localGroupMarker;
+		["GrpFIA_1_CO", 0, "1-CO", "ColorYellow"] spawn f_fnc_localGroupMarker;
+		["GrpFIA_1_DC", 0, "1-DC", "ColorYellow"] spawn f_fnc_localGroupMarker;
 
-		["GrpFIA_ASL", 0, "ASL", "ColorRed"] spawn f_fnc_localGroupMarker;
-		["GrpFIA_A1", 1, "A1", "ColorRed"] spawn f_fnc_localGroupMarker;
-		["GrpFIA_A2", 1, "A2", "ColorRed"] spawn f_fnc_localGroupMarker;
+		["GrpFIA_1_1_SL", 0, "1-1-SL", "ColorRed"] spawn f_fnc_localGroupMarker;
+		["GrpFIA_1_1_1", 1, "1-1-1", "ColorRed"] spawn f_fnc_localGroupMarker;
+		["GrpFIA_1_1_2", 1, "1-1-2", "ColorRed"] spawn f_fnc_localGroupMarker;
 
-		["GrpFIA_BSL", 0, "BSL", "ColorBlue"] spawn f_fnc_localGroupMarker;
-		["GrpFIA_B1", 1, "B1", "ColorBlue"] spawn f_fnc_localGroupMarker;
-		["GrpFIA_B2", 1, "B2", "ColorBlue"] spawn f_fnc_localGroupMarker;
+		["GrpFIA_1_2_SL", 0, "1-2-SL", "ColorBlue"] spawn f_fnc_localGroupMarker;
+		["GrpFIA_1_2_1", 1, "1-2-1", "ColorBlue"] spawn f_fnc_localGroupMarker;
+		["GrpFIA_1_2_2", 1, "1-2-2", "ColorBlue"] spawn f_fnc_localGroupMarker;
 
-		["GrpFIA_CSL", 0, "CSL", "ColorGreen"] spawn f_fnc_localGroupMarker;
-		["GrpFIA_C1", 1, "C1", "ColorGreen"] spawn f_fnc_localGroupMarker;
-		["GrpFIA_C2", 1, "C2", "ColorGreen"] spawn f_fnc_localGroupMarker;
+		["GrpFIA_1_3_SL", 0, "1-3-SL", "ColorGreen"] spawn f_fnc_localGroupMarker;
+		["GrpFIA_1_3_1", 1, "1-3-1", "ColorGreen"] spawn f_fnc_localGroupMarker;
+		["GrpFIA_1_3_2", 1, "1-3-2", "ColorGreen"] spawn f_fnc_localGroupMarker;
 
-		["GrpFIA_DSL", 0, "DSL", "ColorPink"] spawn f_fnc_localGroupMarker;
-		["GrpFIA_D1", 1, "D1", "ColorPick"] spawn f_fnc_localGroupMarker;
-		["GrpFIA_D2", 1, "D2", "ColorPink"] spawn f_fnc_localGroupMarker;
+		["GrpFIA_1_4_SL", 0, "1-4-SL", "ColorPink"] spawn f_fnc_localGroupMarker;
+		["GrpFIA_1_4_1", 1, "1-4-1", "ColorPink"] spawn f_fnc_localGroupMarker;
+		["GrpFIA_1_4_2", 1, "1-4-2", "ColorPink"] spawn f_fnc_localGroupMarker;
 
 		["GrpFIA_MMG1", 2, "MMG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 		["GrpFIA_HMG1",  2, "HMG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
@@ -366,24 +366,24 @@ switch (_unitfaction) do
 
 	case "ind_g_f":
 	{
-		["GrpIFIA_CO", 0, "CO", "ColorYellow"] spawn f_fnc_localGroupMarker;
-		["GrpIFIA_DC", 0, "DC", "ColorYellow"] spawn f_fnc_localGroupMarker;
+		["GrpIFIA_1_CO", 0, "1-CO", "ColorYellow"] spawn f_fnc_localGroupMarker;
+		["GrpIFIA_1_DC", 0, "1-DC", "ColorYellow"] spawn f_fnc_localGroupMarker;
 
-		["GrpIFIA_ASL", 0, "ASL", "ColorRed"] spawn f_fnc_localGroupMarker;
-		["GrpIFIA_A1", 1, "A1", "ColorRed"] spawn f_fnc_localGroupMarker;
-		["GrpIFIA_A2", 1, "A2", "ColorRed"] spawn f_fnc_localGroupMarker;
+		["GrpIFIA_1_1_SL", 0, "1-1-SL", "ColorRed"] spawn f_fnc_localGroupMarker;
+		["GrpIFIA_1_1_1", 1, "1-1-1", "ColorRed"] spawn f_fnc_localGroupMarker;
+		["GrpIFIA_1_1_2", 1, "1-1-2", "ColorRed"] spawn f_fnc_localGroupMarker;
 
-		["GrpIFIA_BSL", 0, "BSL", "ColorBlue"] spawn f_fnc_localGroupMarker;
-		["GrpIFIA_B1", 1, "B1", "ColorBlue"] spawn f_fnc_localGroupMarker;
-		["GrpIFIA_B2", 1, "B2", "ColorBlue"] spawn f_fnc_localGroupMarker;
+		["GrpIFIA_1_2_SL", 0, "1-2-SL", "ColorBlue"] spawn f_fnc_localGroupMarker;
+		["GrpIFIA_1_2_1", 1, "1-2-1", "ColorBlue"] spawn f_fnc_localGroupMarker;
+		["GrpIFIA_1_2_2", 1, "1-2-2", "ColorBlue"] spawn f_fnc_localGroupMarker;
 
-		["GrpIFIA_CSL", 0, "CSL", "ColorGreen"] spawn f_fnc_localGroupMarker;
-		["GrpIFIA_C1", 1, "C1", "ColorGreen"] spawn f_fnc_localGroupMarker;
-		["GrpIFIA_C2", 1, "C2", "ColorGreen"] spawn f_fnc_localGroupMarker;
+		["GrpIFIA_1_3_SL", 0, "1-3-SL", "ColorGreen"] spawn f_fnc_localGroupMarker;
+		["GrpIFIA_1_3_1", 1, "1-3-1", "ColorGreen"] spawn f_fnc_localGroupMarker;
+		["GrpIFIA_1_3_2", 1, "1-3-2", "ColorGreen"] spawn f_fnc_localGroupMarker;
 
-		["GrpIFIA_DSL", 0, "DSL", "ColorPink"] spawn f_fnc_localGroupMarker;
-		["GrpIFIA_D1", 1, "D1", "ColorPink"] spawn f_fnc_localGroupMarker;
-		["GrpIFIA_D2", 1, "D2", "ColorPink"] spawn f_fnc_localGroupMarker;
+		["GrpIFIA_1_4_SL", 0, "1-4-SL", "ColorPink"] spawn f_fnc_localGroupMarker;
+		["GrpIFIA_1_4_1", 1, "1-4-1", "ColorPink"] spawn f_fnc_localGroupMarker;
+		["GrpIFIA_1_4_2", 1, "1-4-2", "ColorPink"] spawn f_fnc_localGroupMarker;
 
 		["GrpIFIA_MMG1", 2, "MMG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 		["GrpIFIA_HMG1",  2, "HMG1", "ColorOrange"] spawn f_fnc_localGroupMarker;

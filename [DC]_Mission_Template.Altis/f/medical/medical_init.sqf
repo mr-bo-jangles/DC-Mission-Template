@@ -47,7 +47,14 @@ call
 		// If script is being run on a client
 		if (hasInterface) then
 		{
-			[] execVM "medix\init.sqf";
+			waitUntil{!isNil "f_var_medix_tfar"};
+			waitUntil{!isNil "f_var_radios"};
+			if (f_var_radios == 2) then
+			{
+				[true, f_var_medix_tfar] execVM "medix\init.sqf";
+			} else {
+				[false, f_var_medix_tfar] execVM "medix\init.sqf";
+			};
 		};
 	};
 };

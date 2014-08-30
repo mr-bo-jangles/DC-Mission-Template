@@ -519,6 +519,7 @@ case "div":
 case "uav":
 {
 	_unit addBackpack _baguav;
+	(unitBackpack _unit) addMagazineCargoGlobal [_APMine1, 2];
 };
 
 // BACKPACK: CREW CHIEFS & VEHICLE DRIVERS

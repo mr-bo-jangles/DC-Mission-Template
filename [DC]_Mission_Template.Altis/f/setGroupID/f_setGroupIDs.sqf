@@ -8,82 +8,82 @@ _groups = [
 
 // ====================================================================================
 
-// GROUP IDs: BLUFOR > NATO
+// GROUP IDs: BLUFOR > OFIA
 // Automatically assigns intelligible names to groups
 
-["GrpNATO_1_CO","NATO CO -"],
-["GrpNATO_1_DC","NATO DC -"],
+["GrpOFIA_1_CO","OFIA CO -"],
+["GrpOFIA_1_DC","OFIA DC -"],
 
-["GrpNATO_1_1_SL","NATO 1 1 SL -"],
-["GrpNATO_1_1_1","NATO 1 1 1 -"],
-["GrpNATO_1_1_2","NATO 1 1 2 -"],
+["GrpOFIA_1_1_SL","OFIA 1 1 SL -"],
+["GrpOFIA_1_1_1","OFIA 1 1 1 -"],
+["GrpOFIA_1_1_2","OFIA 1 1 2 -"],
 
-["GrpNATO_1_2_SL","NATO 1 2 SL -"],
-["GrpNATO_1_2_1","NATO 1 2 1 -"],
-["GrpNATO_1_2_2","NATO 1 2 2 -"],
+["GrpOFIA_1_2_SL","OFIA 1 2 SL -"],
+["GrpOFIA_1_2_1","OFIA 1 2 1 -"],
+["GrpOFIA_1_2_2","OFIA 1 2 2 -"],
 
-["GrpNATO_1_3_SL","NATO 1 3 SL -"],
-["GrpNATO_1_3_1","NATO 1 3 1 -"],
-["GrpNATO_1_3_2","NATO 1 3 2 -"],
+["GrpOFIA_1_3_SL","OFIA 1 3 SL -"],
+["GrpOFIA_1_3_1","OFIA 1 3 1 -"],
+["GrpOFIA_1_3_2","OFIA 1 3 2 -"],
 
-["GrpNATO_1_4_SL","NATO 1 4 SL -"],
-["GrpNATO_1_4_1","NATO 1 4 1 -"],
-["GrpNATO_1_4_2","NATO 1 4 2 -"],
+["GrpOFIA_1_4_SL","OFIA 1 4 SL -"],
+["GrpOFIA_1_4_1","OFIA 1 4 1 -"],
+["GrpOFIA_1_4_2","OFIA 1 4 2 -"],
 
-["GrpNATO_MMG1","NATO MMG1 -"],
-["GrpNATO_HMG1","NATO HMG1 -"],
-["GrpNATO_MAT1","NATO MAT1 -"],
-["GrpNATO_HAT1","NATO HAT1 -"],
-["GrpNATO_MTR1","NATO MTR1 -"],
-["GrpNATO_MSAM1","NATO MSAM1 -"],
-["GrpNATO_HSAM1","NATO HSAM1 -"],
-["GrpNATO_ST1","NATO ST1 -"],
-["GrpNATO_DT1","NATO DT1 -"],
-["GrpNATO_ENG1","NATO ENG1 -"],
+["GrpOFIA_MMG1","OFIA MMG1 -"],
+["GrpOFIA_HMG1","OFIA HMG1 -"],
+["GrpOFIA_MAT1","OFIA MAT1 -"],
+["GrpOFIA_HAT1","OFIA HAT1 -"],
+["GrpOFIA_MTR1","OFIA MTR1 -"],
+["GrpOFIA_MSAM1","OFIA MSAM1 -"],
+["GrpOFIA_HSAM1","OFIA HSAM1 -"],
+["GrpOFIA_ST1","OFIA ST1 -"],
+["GrpOFIA_DT1","OFIA DT1 -"],
+["GrpOFIA_ENG1","OFIA ENG1 -"],
 
-["GrpNATO_IFV1","NATO IFV1 -"],
-["GrpNATO_IFV2","NATO IFV2 -"],
-["GrpNATO_IFV3","NATO IFV3 -"],
-["GrpNATO_IFV4","NATO IFV4 -"],
-["GrpNATO_IFV5","NATO IFV5 -"],
-["GrpNATO_IFV6","NATO IFV6 -"],
-["GrpNATO_IFV7","NATO IFV7 -"],
-["GrpNATO_IFV8","NATO IFV8 -"],
-["GrpNATO_TNK1","NATO TNK1 -"],
+["GrpOFIA_IFV1","OFIA IFV1 -"],
+["GrpOFIA_IFV2","OFIA IFV2 -"],
+["GrpOFIA_IFV3","OFIA IFV3 -"],
+["GrpOFIA_IFV4","OFIA IFV4 -"],
+["GrpOFIA_IFV5","OFIA IFV5 -"],
+["GrpOFIA_IFV6","OFIA IFV6 -"],
+["GrpOFIA_IFV7","OFIA IFV7 -"],
+["GrpOFIA_IFV8","OFIA IFV8 -"],
+["GrpOFIA_TNK1","OFIA TNK1 -"],
 
-["GrpNATO_TH1","NATO TH1 -"],
-["GrpNATO_TH2","NATO TH2 -"],
-["GrpNATO_TH3","NATO TH3 -"],
-["GrpNATO_TH4","NATO TH4 -"],
-["GrpNATO_TH5","NATO TH5 -"],
-["GrpNATO_TH6","NATO TH6 -"],
-["GrpNATO_TH7","NATO TH7 -"],
-["GrpNATO_TH8","NATO TH8 -"],
-["GrpNATO_AH1","NATO AH1 -"],
+["GrpOFIA_TH1","OFIA TH1 -"],
+["GrpOFIA_TH2","OFIA TH2 -"],
+["GrpOFIA_TH3","OFIA TH3 -"],
+["GrpOFIA_TH4","OFIA TH4 -"],
+["GrpOFIA_TH5","OFIA TH5 -"],
+["GrpOFIA_TH6","OFIA TH6 -"],
+["GrpOFIA_TH7","OFIA TH7 -"],
+["GrpOFIA_TH8","OFIA TH8 -"],
+["GrpOFIA_AH1","OFIA AH1 -"],
 
 // ====================================================================================
 
 // GROUP IDs: BLUFOR > FIA
 // Automatically assigns intelligible names to groups
 
-["GrpFIA_CO","FIA CO -"],
-["GrpFIA_DC","FIA DC -"],
+["GrpFIA_1_CO","FIA CO -"],
+["GrpFIA_1_DC","FIA DC -"],
 
-["GrpFIA_ASL","FIA ASL -"],
-["GrpFIA_A1","FIA A1 -"],
-["GrpFIA_A2","FIA A2 -"],
+["GrpFIA_1_1_SL","FIA 1 1 SL -"],
+["GrpFIA_1_1_1","FIA 1 1 1 -"],
+["GrpFIA_1_1_2","FIA 1 1 2 -"],
 
-["GrpFIA_BSL","FIA BSL -"],
-["GrpFIA_B1","FIA B1 -"],
-["GrpFIA_B2","FIA B2 -"],
+["GrpFIA_1_2_SL","FIA 1 2 SL -"],
+["GrpFIA_1_2_1","FIA 1 2 1 -"],
+["GrpFIA_1_2_2","FIA 1 2 2 -"],
 
-["GrpFIA_CSL","FIA CSL -"],
-["GrpFIA_C1","FIA C1 -"],
-["GrpFIA_C2","FIA C2 -"],
+["GrpFIA_1_3_SL","FIA 1 3 SL -"],
+["GrpFIA_1_3_1","FIA 1 3 1 -"],
+["GrpFIA_1_3_2","FIA 1 3 2 -"],
 
-["GrpFIA_DSL","FIA DSL -"],
-["GrpFIA_D1","FIA D1 -"],
-["GrpFIA_D2","FIA D2 -"],
+["GrpFIA_1_4_SL","FIA 1 4 SL -"],
+["GrpFIA_1_4_1","FIA 1 4 1 -"],
+["GrpFIA_1_4_2","FIA 1 4 2 -"],
 
 ["GrpFIA_MMG1","FIA MMG1 -"],
 ["GrpFIA_HMG1","FIA HMG1 -"],
@@ -121,24 +121,24 @@ _groups = [
 // GROUP IDs: OPFOR > CSAT
 // Automatically assigns intelligible names to groups
 
-["GrpCSAT_CO","CSAT CO -"],
-["GrpCSAT_DC","CSAT DC -"],
+["GrpCSAT_1_CO","CSAT CO -"],
+["GrpCSAT_1_DC","CSAT DC -"],
 
-["GrpCSAT_ASL","CSAT ASL -"],
-["GrpCSAT_A1","CSAT A1 -"],
-["GrpCSAT_A2","CSAT A2 -"],
+["GrpCSAT_1_1_SL","CSAT 1 1 SL -"],
+["GrpCSAT_1_1_1","CSAT 1 1 1 -"],
+["GrpCSAT_1_1_2","CSAT 1 1 2 -"],
 
-["GrpCSAT_BSL","CSAT BSL -"],
-["GrpCSAT_B1","CSAT B1 -"],
-["GrpCSAT_B2","CSAT B2 -"],
+["GrpCSAT_1_2_SL","CSAT 1 2 SL -"],
+["GrpCSAT_1_2_1","CSAT 1 2 1 -"],
+["GrpCSAT_1_2_2","CSAT 1 2 2 -"],
 
-["GrpCSAT_CSL","CSAT CSL -"],
-["GrpCSAT_C1","CSAT C1 -"],
-["GrpCSAT_C2","CSAT C2 -"],
+["GrpCSAT_1_3_SL","CSAT 1 3 SL -"],
+["GrpCSAT_1_3_1","CSAT 1 3 1 -"],
+["GrpCSAT_1_3_2","CSAT 1 3 2 -"],
 
-["GrpCSAT_DSL","CSAT DSL -"],
-["GrpCSAT_D1","CSAT D1 -"],
-["GrpCSAT_D2","CSAT D2 -"],
+["GrpCSAT_1_4_SL","CSAT 1 4 SL -"],
+["GrpCSAT_1_4_1","CSAT 1 4 1 -"],
+["GrpCSAT_1_4_2","CSAT 1 4 2 -"],
 
 ["GrpCSAT_MMG1","CSAT MMG1 -"],
 ["GrpCSAT_HMG1","CSAT HMG1 -"],
@@ -176,24 +176,24 @@ _groups = [
 // GROUP IDs: OPFOR > FIA
 // Automatically assigns intelligible names to groups
 
-["GrpOFIA_CO","FIA O CO -"],
-["GrpOFIA_DC","FIA O DC -"],
+["GrpOFIA_1_CO","FIA O CO -"],
+["GrpOFIA_1_DC","FIA O DC -"],
 
-["GrpOFIA_ASL","FIA O ASL -"],
-["GrpOFIA_A1","FIA O A1 -"],
-["GrpOFIA_A2","FIA O A2 -"],
+["GrpOFIA_1_1_SL","FIA O 1 1 SL -"],
+["GrpOFIA_1_1_1","FIA O 1 1 1 -"],
+["GrpOFIA_1_1_2","FIA O 1 1 2 -"],
 
-["GrpOFIA_BSL","FIA O BSL -"],
-["GrpOFIA_B1","FIA O B1 -"],
-["GrpOFIA_B2","FIA O B2 -"],
+["GrpOFIA_1_2_SL","FIA O 1 2 SL -"],
+["GrpOFIA_1_2_1","FIA O 1 2 1 -"],
+["GrpOFIA_1_2_2","FIA O 1 2 2 -"],
 
-["GrpOFIA_CSL","FIA O CSL -"],
-["GrpOFIA_C1","FIA O C1 -"],
-["GrpOFIA_C2","FIA O C2 -"],
+["GrpOFIA_1_3_SL","FIA O 1 3 SL -"],
+["GrpOFIA_1_3_1","FIA O 1 3 1 -"],
+["GrpOFIA_1_3_2","FIA O 1 3 2 -"],
 
-["GrpOFIA_DSL","FIA O DSL -"],
-["GrpOFIA_D1","FIA O D1 -"],
-["GrpOFIA_D2","FIA O D2 -"],
+["GrpOFIA_1_4_SL","FIA O 1 4 SL -"],
+["GrpOFIA_1_4_1","FIA O 1 4 1 -"],
+["GrpOFIA_1_4_2","FIA O 1 4 2 -"],
 
 ["GrpOFIA_MMG1","FIA O MMG1 -"],
 ["GrpOFIA_HMG1","FIA O HMG1 -"],
@@ -231,24 +231,24 @@ _groups = [
 // GROUP IDs: INDEPENDENT > AAF
 // Automatically assigns intelligible names to groups
 
-["GrpAAF_CO","AAF CO -"],
-["GrpAAF_DC","AAF DC -"],
+["GrpAAF_1_CO","AAF CO -"],
+["GrpAAF_1_DC","AAF DC -"],
 
-["GrpAAF_ASL","AAF ASL -"],
-["GrpAAF_A1","AAF A1 -"],
-["GrpAAF_A2","AAF A2 -"],
+["GrpAAF_1_1_SL","AAF 1 1 SL -"],
+["GrpAAF_1_1_1","AAF 1 1 1 -"],
+["GrpAAF_1_1_2","AAF 1 1 2 -"],
 
-["GrpAAF_BSL","AAF BSL -"],
-["GrpAAF_B1","AAF B1 -"],
-["GrpAAF_B2","AAF B2 -"],
+["GrpAAF_1_2_SL","AAF 1 2 SL -"],
+["GrpAAF_1_2_1","AAF 1 2 1 -"],
+["GrpAAF_1_2_2","AAF 1 2 2 -"],
 
-["GrpAAF_CSL","AAF CSL -"],
-["GrpAAF_C1","AAF C1 -"],
-["GrpAAF_C2","AAF C2 -"],
+["GrpAAF_1_3_SL","AAF 1 3 SL -"],
+["GrpAAF_1_3_1","AAF 1 3 1 -"],
+["GrpAAF_1_3_2","AAF 1 3 2 -"],
 
-["GrpAAF_DSL","AAF DSL -"],
-["GrpAAF_D1","AAF D1 -"],
-["GrpAAF_D2","AAF D2 -"],
+["GrpAAF_1_4_SL","AAF 1 4 SL -"],
+["GrpAAF_1_4_1","AAF 1 4 1 -"],
+["GrpAAF_1_4_2","AAF 1 4 2 -"],
 
 ["GrpAAF_MMG1","AAF MMG1 -"],
 ["GrpAAF_HMG1","AAF HMG1 -"],
@@ -287,24 +287,24 @@ _groups = [
 // GROUP IDs: OPFOR > FIA
 // Automatically assigns intelligible names to groups
 
-["GrpIFIA_CO","FIA I CO -"],
-["GrpIFIA_DC","FIA I DC -"],
+["GrpIFIA_1_CO","FIA I CO -"],
+["GrpIFIA_1_DC","FIA I DC -"],
 
-["GrpIFIA_ASL","FIA I ASL -"],
-["GrpIFIA_A1","FIA I A1 -"],
-["GrpIFIA_A2","FIA I A2 -"],
+["GrpIFIA_1_1_SL","FIA I 1 1 SL -"],
+["GrpIFIA_1_1_1","FIA I 1 1 1 -"],
+["GrpIFIA_1_1_2","FIA I 1 1 2 -"],
 
-["GrpIFIA_BSL","FIA I BSL -"],
-["GrpIFIA_B1","FIA I B1 -"],
-["GrpIFIA_B2","FIA I B2 -"],
+["GrpIFIA_1_2_SL","FIA I 1 2 SL -"],
+["GrpIFIA_1_2_1","FIA I 1 2 1 -"],
+["GrpIFIA_1_2_2","FIA I 1 2 2 -"],
 
-["GrpIFIA_CSL","FIA I CSL -"],
-["GrpIFIA_C1","FIA I C1 -"],
-["GrpIFIA_C2","FIA I C2 -"],
+["GrpIFIA_1_3_SL","FIA I 1 3 SL -"],
+["GrpIFIA_1_3_1","FIA I 1 3 1 -"],
+["GrpIFIA_1_3_2","FIA I 1 3 2 -"],
 
-["GrpIFIA_DSL","FIA I DSL -"],
-["GrpIFIA_D1","FIA I D1 -"],
-["GrpIFIA_D2","FIA I D2 -"],
+["GrpIFIA_1_4_SL","FIA I 1 4 SL -"],
+["GrpIFIA_1_4_1","FIA I 1 4 1 -"],
+["GrpIFIA_1_4_2","FIA I 1 4 2 -"],
 
 ["GrpIFIA_MMG1","FIA I MMG1 -"],
 ["GrpIFIA_HMG1","FIA I HMG1 -"],
