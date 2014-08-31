@@ -171,10 +171,10 @@ class Params
 
     class f_param_medix_tfar
     {
-            title = "Medix TFAR Setting";
-            values[] = {0,1,2};
-            texts[] = {"No Action On Unconcious","Mute On Unconcious","Whisper On Unconcious"};
-            default = 1;
+            title = "Medix - Ability when unconcious";
+            values[] = {0,1,2,3};
+            texts[] = {"Talk and Radio","Whisper And Radio","Whisper, No Radio", "No Talk, No Radio"};
+            default = 3;
             code = "f_var_medix_tfar = %1";
     };
 

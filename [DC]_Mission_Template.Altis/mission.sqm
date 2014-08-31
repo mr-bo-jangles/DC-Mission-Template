@@ -1700,7 +1700,7 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					text="UnitCSAT_TH1_P";
-					init="GrpCSAT_1_1_1_TH1 = group this; [""pp"",this] call f_fnc_assignGear; this moveInDriver VehCSAT_TH1;";
+					init="GrpCSAT_TH1 = group this; [""pp"",this] call f_fnc_assignGear; this moveInDriver VehCSAT_TH1;";
 					description="CSAT Transport Helo 1 Pilot";
 				};
 				class Item1
