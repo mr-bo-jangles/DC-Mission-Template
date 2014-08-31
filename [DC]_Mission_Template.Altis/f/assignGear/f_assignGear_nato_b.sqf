@@ -134,6 +134,7 @@ case "rat":
 		(unitBackpack _unit) addMagazineCargoGlobal [_grenade, 2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_mgrenade, 2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 2];
+		(unitBackpack _unit) addMagazineCargoGlobal [_RATmag, 1];
 
 	};
 	// BACKPACK: HEAVY
@@ -144,7 +145,7 @@ case "rat":
 		(unitBackpack _unit) addMagazineCargoGlobal [_grenade, 2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_mgrenade, 2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 2];
-		(unitBackpack _unit) addMagazineCargoGlobal [_RATmag, 1];
+		(unitBackpack _unit) addMagazineCargoGlobal [_RATmag, 2];
 	};
 };
 

@@ -65,7 +65,7 @@ _scope2 = "optic_HAMR";			// RCO Scope - 1x - 10x
 _scope3 = "optic_SOS";			// SOS Scope - 18x - 75x
 
 // Default setup
-_attachments = [_attach1,_scope2]; // The default attachment set for most units, overwritten in the individual unitType
+_attachments = [_attach1,_scope1]; // The default attachment set for most units, overwritten in the individual unitType
 
 // [] = remove all
 // [_attach1,_scope1,_silencer] = remove all, add items assigned in _attach1, _scope1 and _silencer1
@@ -348,6 +348,7 @@ switch (_typeofUnit) do
 		_unit addWeapon "Rangefinder";
 		_unit linkItem "ItemGPS";
 		["g"] call _backpack;
+		_attachments = [_attach1,_scope2];
 	};
 
 // LOADOUT: DEPUTY COMMANDER AND SQUAD LEADER
@@ -367,6 +368,7 @@ switch (_typeofUnit) do
 		_unit addWeapon "Rangefinder";
 		_unit linkItem "ItemGPS";
 		["g"] call _backpack;
+		_attachments = [_attach1,_scope2];
 	};
 
 // LOADOUT: MEDIC
@@ -394,6 +396,7 @@ switch (_typeofUnit) do
 		_unit addWeapon "Rangefinder";
 		_unit linkItem "ItemGPS";
 		["g"] call _backpack;
+		_attachments = [_attach1,_scope2];
 	};
 
 
@@ -408,6 +411,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_pistolmag,4];
 		_unit addweapon _pistol;
 		["ar"] call _backpack;
+		_attachments = [_attach1,_scope2];
 	};
 
 // LOADOUT: ASSISTANT AUTOMATIC RIFLEMAN
@@ -421,6 +425,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenade,2];
 		_unit addWeapon "Binocular";
 		["aar"] call _backpack;
+		_attachments = [_attach1,_scope2];
 	};
 
 // LOADOUT: RIFLEMAN (AT)
@@ -618,7 +623,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_pistolmag,4];
 		_unit addweapon _pistol;
 		_unit addmagazines [_smokegrenade,2];
-		_attachments = [_scope3];
+		_attachments = [_attach1,_scope3];
 	};
 
 // LOADOUT: SPOTTER
@@ -632,6 +637,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenade,2];
 		_unit addWeapon "Rangefinder";
 		_unit linkItem "ItemGPS";
+		_attachments = [_attach1,_scope2];
 	};
 
 // LOADOUT: VEHICLE COMMANDER
