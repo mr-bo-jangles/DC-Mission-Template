@@ -6,6 +6,8 @@
 // Each medical modification requires a different set of scripts to be used, and so we
 // split into a separate script file for initialisation of each mod.
 
+private ["_medix_config"];
+
 // Wait for parameter to be initialised
 waitUntil{!isNil "f_var_medical"};
 
@@ -51,10 +53,11 @@ call
 			waitUntil{!isNil "f_var_radios"};
 			if (f_var_radios == 2) then
 			{
-				[true, f_var_medix_tfar] execVM "medix\init.sqf";
+				_medix_config = f_var_medix_tfar;
 			} else {
-				[false, f_var_medix_tfar] execVM "medix\init.sqf";
+				_medix_config = 0;
 			};
+			[_medix_config] execVM "medix\init.sqf";
 		};
 	};
 };

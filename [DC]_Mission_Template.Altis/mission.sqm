@@ -4996,7 +4996,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitCSAT_MMG1_AG";
-					init="GrpCSAT_1_1_1_MMG1 = group this; [""mmgag"",this] call f_fnc_assignGear;";
+					init="GrpCSAT_MMG1 = group this; [""mmgag"",this] call f_fnc_assignGear;";
 					description="CSAT Medium MG Team 1 Spotter (Leader)";
 				};
 				class Item1
@@ -5008,7 +5008,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_MMG1_G";
-					init="GrpCSAT_1_1_1_MMG1 = group this; [""mmgg"",this] call f_fnc_assignGear;";
+					init="GrpCSAT_MMG1 = group this; [""mmgg"",this] call f_fnc_assignGear;";
 					description="CSAT Medium MG Team 1 Gunner";
 				};
 			};
@@ -5030,7 +5030,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitCSAT_HMG1_AG";
-					init="GrpCSAT_1_1_1_HMG1 = group this; [""hmgag"",this] call f_fnc_assignGear;";
+					init="GrpCSAT_HMG1 = group this; [""hmgag"",this] call f_fnc_assignGear;";
 					description="CSAT Heavy MG Team 1 Spotter (Leader)";
 				};
 				class Item1
@@ -5042,7 +5042,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_HMG1_G";
-					init="GrpCSAT_1_1_1_HMG1 = group this; [""hmgg"",this] call f_fnc_assignGear;";
+					init="GrpCSAT_HMG1 = group this; [""hmgg"",this] call f_fnc_assignGear;";
 					description="CSAT Heavy MG Team 1 Gunner";
 				};
 			};
@@ -5064,7 +5064,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitCSAT_MAT1_AG";
-					init="GrpCSAT_1_1_1_MAT1 = group this; [""matag"",this] call f_fnc_assignGear; ";
+					init="GrpCSAT_MAT1 = group this; [""matag"",this] call f_fnc_assignGear; ";
 					description="CSAT Medium AT Team 1 Spotter (Leader)";
 				};
 				class Item1
@@ -5076,7 +5076,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_MAT1_G";
-					init="GrpCSAT_1_1_1_MAT1 = group this; [""matg"",this] call f_fnc_assignGear;";
+					init="GrpCSAT_MAT1 = group this; [""matg"",this] call f_fnc_assignGear;";
 					description="CSAT Medium AT Team 1 Gunner";
 				};
 			};
@@ -5098,7 +5098,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitCSAT_HAT1_AG";
-					init="GrpCSAT_1_1_1_HAT1 = group this; [""hatag"",this] call f_fnc_assignGear; ";
+					init="GrpCSAT_HAT1 = group this; [""hatag"",this] call f_fnc_assignGear; ";
 					description="CSAT Heavy AT Team 1 Spotter (Leader)";
 				};
 				class Item1
@@ -5110,7 +5110,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_HAT1_G";
-					init="GrpCSAT_1_1_1_HAT1 = group this; [""hatg"",this] call f_fnc_assignGear;";
+					init="GrpCSAT_HAT1 = group this; [""hatg"",this] call f_fnc_assignGear;";
 					description="CSAT Heavy AT Team 1 Gunner";
 				};
 			};
@@ -5132,7 +5132,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitCSAT_MTR1_AG";
-					init="GrpCSAT_1_1_1_MTR1 = group this; [""mtrag"",this] call f_fnc_assignGear; ";
+					init="GrpCSAT_MTR1 = group this; [""mtrag"",this] call f_fnc_assignGear; ";
 					description="CSAT Mortar Team 1 Spotter (Leader)";
 				};
 				class Item1
@@ -5144,7 +5144,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_MTR1_G";
-					init="GrpCSAT_1_1_1_MTR1 = group this; [""mtrg"",this] call f_fnc_assignGear;";
+					init="GrpCSAT_MTR1 = group this; [""mtrg"",this] call f_fnc_assignGear;";
 					description="CSAT Mortar Team 1 Gunner";
 				};
 			};
@@ -5166,7 +5166,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitCSAT_MSAM1_AG";
-					init="GrpCSAT_1_1_1_MSAM1 = group this; [""msamag"",this] call f_fnc_assignGear; ";
+					init="GrpCSAT_MSAM1 = group this; [""msamag"",this] call f_fnc_assignGear; ";
 					description="CSAT Medium SAM Team 1 Spotter (Leader)";
 				};
 				class Item1
@@ -5178,7 +5178,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_MSAM1_G";
-					init="GrpCSAT_1_1_1_MSAM1 = group this; [""msamg"",this] call f_fnc_assignGear;";
+					init="GrpCSAT_MSAM1 = group this; [""msamg"",this] call f_fnc_assignGear;";
 					description="CSAT Medium SAM Team 1 Gunner";
 				};
 			};
@@ -5200,7 +5200,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitCSAT_HSAM1_AG";
-					init="GrpCSAT_1_1_1_HSAM1 = group this; [""hsamag"",this] call f_fnc_assignGear; ";
+					init="GrpCSAT_HSAM1 = group this; [""hsamag"",this] call f_fnc_assignGear; ";
 					description="CSAT Heavy SAM Team 1 Spotter (Leader)";
 				};
 				class Item1
@@ -5212,7 +5212,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_HSAM1_G";
-					init="GrpCSAT_1_1_1_HSAM1 = group this; [""hsamg"",this] call f_fnc_assignGear;";
+					init="GrpCSAT_HSAM1 = group this; [""hsamg"",this] call f_fnc_assignGear;";
 					description="CSAT Heavy SAM Team 1 Gunner";
 				};
 			};
@@ -5234,7 +5234,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitCSAT_ST1_SP";
-					init="GrpCSAT_1_1_1_ST1 = group this; [""sp"",this] call f_fnc_assignGear; ";
+					init="GrpCSAT_ST1 = group this; [""sp"",this] call f_fnc_assignGear; ";
 					description="CSAT Sniper Team 1 Spotter (Leader)";
 				};
 				class Item1
@@ -5246,7 +5246,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_ST1_SN";
-					init="GrpCSAT_1_1_1_ST1 = group this; [""sn"",this] call f_fnc_assignGear;";
+					init="GrpCSAT_ST1 = group this; [""sn"",this] call f_fnc_assignGear;";
 					description="CSAT Sniper Team 1 Sniper";
 				};
 			};
@@ -5268,7 +5268,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitCSAT_ENG1_FTL";
-					init="GrpCSAT_1_1_1_ENG1 = group this; [""eng"",this] call f_fnc_assignGear;";
+					init="GrpCSAT_ENG1 = group this; [""eng"",this] call f_fnc_assignGear;";
 					description="CSAT Engineer Team 1 Leader (Demo)";
 				};
 				class Item1
@@ -5280,7 +5280,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_ENG1_A1";
-					init="GrpCSAT_1_1_1_ENG1 = group this; [""eng"",this] call f_fnc_assignGear;";
+					init="GrpCSAT_ENG1 = group this; [""eng"",this] call f_fnc_assignGear;";
 					description="CSAT Engineer Team 1 Assistant (Demo)";
 				};
 				class Item2
@@ -5292,7 +5292,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_ENG1_A2";
-					init="GrpCSAT_1_1_1_ENG1 = group this; [""engm"",this] call f_fnc_assignGear;";
+					init="GrpCSAT_ENG1 = group this; [""engm"",this] call f_fnc_assignGear;";
 					description="CSAT Engineer Team 1 Assistant (Mines)";
 				};
 				class Item3
@@ -5304,7 +5304,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitCSAT_ENG1_A3";
-					init="GrpCSAT_1_1_1_ENG1 = group this; [""engm"",this] call f_fnc_assignGear;";
+					init="GrpCSAT_ENG1 = group this; [""engm"",this] call f_fnc_assignGear;";
 					description="CSAT Engineer Team 1 Assistant (Mines)";
 				};
 			};
@@ -5326,7 +5326,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="UnitCSAT_DT1_TL";
-					init="GrpCSAT_1_1_1_DT1 = group this; [""div"",this] call f_fnc_assignGear ";
+					init="GrpCSAT_DT1 = group this; [""div"",this] call f_fnc_assignGear ";
 					description="CSAT Diver Team 1 Team Leader";
 				};
 				class Item1
@@ -5339,7 +5339,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitCSAT_DT1_D1";
-					init="GrpCSAT_1_1_1_DT1 = group this; [""div"",this] call f_fnc_assignGear ";
+					init="GrpCSAT_DT1 = group this; [""div"",this] call f_fnc_assignGear ";
 					description="CSAT Diver Team 1 Diver";
 				};
 				class Item2
@@ -5352,7 +5352,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitCSAT_DT1_D2";
-					init="GrpCSAT_1_1_1_DT1 = group this; [""div"",this] call f_fnc_assignGear ";
+					init="GrpCSAT_DT1 = group this; [""div"",this] call f_fnc_assignGear ";
 					description="CSAT Diver Team 1 Diver";
 				};
 				class Item3
@@ -5365,7 +5365,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitCSAT_DT1_D3";
-					init="GrpCSAT_1_1_1_DT1 = group this; [""div"",this] call f_fnc_assignGear ";
+					init="GrpCSAT_DT1 = group this; [""div"",this] call f_fnc_assignGear ";
 					description="CSAT Diver Team 1 Diver";
 				};
 			};
@@ -5385,7 +5385,7 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
-					init="GrpCSAT_1_1_1_JIP = group this; nul = [this] execVM ""f\JIP\f_JIP_addReinforcementOptionsAction.sqf"";";
+					init="GrpCSAT_JIP = group this; nul = [this] execVM ""f\JIP\f_JIP_addReinforcementOptionsAction.sqf"";";
 					description="CSAT RESERVED FOR JIP";
 				};
 				class Item1
@@ -5396,7 +5396,7 @@ class Mission
 					vehicle="O_Soldier_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="GrpCSAT_1_1_1_JIP = group this; nul = [this] execVM ""f\JIP\f_JIP_addReinforcementOptionsAction.sqf"";";
+					init="GrpCSAT_JIP = group this; nul = [this] execVM ""f\JIP\f_JIP_addReinforcementOptionsAction.sqf"";";
 					description="CSAT RESERVED FOR JIP";
 				};
 				class Item2
@@ -5407,7 +5407,7 @@ class Mission
 					vehicle="O_Soldier_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="GrpCSAT_1_1_1_JIP = group this; nul = [this] execVM ""f\JIP\f_JIP_addReinforcementOptionsAction.sqf"";";
+					init="GrpCSAT_JIP = group this; nul = [this] execVM ""f\JIP\f_JIP_addReinforcementOptionsAction.sqf"";";
 					description="CSAT RESERVED FOR JIP";
 				};
 				class Item3
@@ -5418,7 +5418,7 @@ class Mission
 					vehicle="O_Soldier_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="GrpCSAT_1_1_1_JIP = group this; nul = [this] execVM ""f\JIP\f_JIP_addReinforcementOptionsAction.sqf"";";
+					init="GrpCSAT_JIP = group this; nul = [this] execVM ""f\JIP\f_JIP_addReinforcementOptionsAction.sqf"";";
 					description="CSAT RESERVED FOR JIP";
 				};
 			};
