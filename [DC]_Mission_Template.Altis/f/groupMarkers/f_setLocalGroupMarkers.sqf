@@ -302,24 +302,24 @@ switch (_unitfaction) do
 
 	case "opf_g_f":
 	{
-		["GrpOFIA_CO", 0, "CO", "ColorYellow"] spawn f_fnc_localGroupMarker;
-		["GrpOFIA_DC", 0, "DC", "ColorYellow"] spawn f_fnc_localGroupMarker;
+		["GrpOFIA_CO", 0, "1-CO", "ColorYellow"] spawn f_fnc_localGroupMarker;
+		["GrpOFIA_DC", 0, "1-DC", "ColorYellow"] spawn f_fnc_localGroupMarker;
 
-		["GrpOFIA_ASL", 0, "ASL", "ColorRed"] spawn f_fnc_localGroupMarker;
-		["GrpOFIA_A1", 1, "A1", "ColorRed"] spawn f_fnc_localGroupMarker;
-		["GrpOFIA_A2", 1, "A2", "ColorRed"] spawn f_fnc_localGroupMarker;
+		["GrpOFIA_ASL", 0, "1-1-SL", "ColorRed"] spawn f_fnc_localGroupMarker;
+		["GrpOFIA_A1", 1, "1-1-1", "ColorRed"] spawn f_fnc_localGroupMarker;
+		["GrpOFIA_A2", 1, "1-1-2", "ColorRed"] spawn f_fnc_localGroupMarker;
 
-		["GrpOFIA_BSL", 0, "BSL", "ColorBlue"] spawn f_fnc_localGroupMarker;
-		["GrpOFIA_B1", 1, "B1", "ColorBlue"] spawn f_fnc_localGroupMarker;
-		["GrpOFIA_B2", 1, "B2", "ColorBlue"] spawn f_fnc_localGroupMarker;
+		["GrpOFIA_BSL", 0, "1-2-SL", "ColorBlue"] spawn f_fnc_localGroupMarker;
+		["GrpOFIA_B1", 1, "1-2-1", "ColorBlue"] spawn f_fnc_localGroupMarker;
+		["GrpOFIA_B2", 1, "1-2-2", "ColorBlue"] spawn f_fnc_localGroupMarker;
 
-		["GrpOFIA_CSL", 0, "CSL", "ColorGreen"] spawn f_fnc_localGroupMarker;
-		["GrpOFIA_C1", 1, "C1", "ColorGreen"] spawn f_fnc_localGroupMarker;
-		["GrpOFIA_C2", 1, "C2", "ColorGreen"] spawn f_fnc_localGroupMarker;
+		["GrpOFIA_CSL", 0, "1-3-SL", "ColorGreen"] spawn f_fnc_localGroupMarker;
+		["GrpOFIA_C1", 1, "1-3-1", "ColorGreen"] spawn f_fnc_localGroupMarker;
+		["GrpOFIA_C2", 1, "1-3-2", "ColorGreen"] spawn f_fnc_localGroupMarker;
 
-		["GrpOFIA_DSL", 0, "DSL", "ColorPink"] spawn f_fnc_localGroupMarker;
-		["GrpOFIA_D1", 1, "D1", "ColorPink"] spawn f_fnc_localGroupMarker;
-		["GrpOFIA_D2", 1, "D2", "ColorPink"] spawn f_fnc_localGroupMarker;
+		["GrpOFIA_DSL", 0, "1-4-SL", "ColorPink"] spawn f_fnc_localGroupMarker;
+		["GrpOFIA_D1", 1, "1-4-1", "ColorPink"] spawn f_fnc_localGroupMarker;
+		["GrpOFIA_D2", 1, "1-4-2", "ColorPink"] spawn f_fnc_localGroupMarker;
 
 		["GrpOFIA_MMG1", 2, "MMG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 		["GrpOFIA_HMG1",  2, "HMG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
@@ -354,11 +354,12 @@ switch (_unitfaction) do
 
 		["GrpOFIA_AH1",  9, "AH1", "ColorRed"] spawn f_fnc_localGroupMarker;
 
-		["UnitOFIA_CO_M", 0, "COM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
-		["UnitOFIA_DC_M", 0, "DCM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
-		["UnitOFIA_ASL_M", 0, "AM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
-		["UnitOFIA_BSL_M", 0, "BM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
-		["UnitOFIA_CSL_M", 0, "CM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+		["UnitOFIA_CO_M", 0, "1-CO-M", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+		["UnitOFIA_DC_M", 0, "1-DC-M", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+		["UnitOFIA_ASL_M", 0, "1-1-M", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+		["UnitOFIA_BSL_M", 0, "1-2-M", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+		["UnitOFIA_CSL_M", 0, "1-3-M", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+		["UnitOFIA_DSL_M", 0, "1-4-M", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
 
 	};
 
@@ -421,11 +422,12 @@ switch (_unitfaction) do
 
 		["GrpIFIA_AH1",  9, "AH1", "ColorRed"] spawn f_fnc_localGroupMarker;
 
-		["UnitIFIA_CO_M", 0, "COM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
-		["UnitIFIA_DC_M", 0, "DCM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
-		["UnitIFIA_ASL_M", 0, "AM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
-		["UnitIFIA_BSL_M", 0, "BM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
-		["UnitIFIA_CSL_M", 0, "CM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+		["UnitIFIA_CO_M", 0, "1-CO-M", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+		["UnitIFIA_DC_M", 0, "1-DC-M", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+		["UnitIFIA_ASL_M", 0, "1-1-M", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+		["UnitIFIA_BSL_M", 0, "1-2-M", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+		["UnitIFIA_CSL_M", 0, "1-3-M", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+		["UnitIFIA_DSL_M", 0, "1-4-M", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
 
 	};
 

@@ -18,7 +18,7 @@ class Header
 onLoadName = "*** Insert mission name here. ***";
 onLoadMission = "*** Insert single sentence mission description. ***";
 author = "*** Insert mission author name here. ***";
-loadScreen = "logo.paa";
+loadScreen = "intro.jpg";
 
 // ============================================================================================
 

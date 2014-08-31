@@ -1734,7 +1734,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="UnitAAF_CO";
-					init="GrpAAF_CO = group this; [""co"",this] call f_fnc_assignGear;";
+					init="GrpAAF_1_CO = group this; [""co"",this] call f_fnc_assignGear;";
 					description="AAF Commander";
 				};
 				class Item1
@@ -1746,7 +1746,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_CO_M";
-					init="GrpAAF_CO = group this; [""m"",this] call f_fnc_assignGear;";
+					init="GrpAAF_1_CO = group this; [""m"",this] call f_fnc_assignGear;";
 					description="AAF Medic";
 				};
 				class Item2
@@ -1758,7 +1758,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_CO_UAV";
-					init="GrpAAF_CO = group this; [""uav"",this] call f_fnc_assignGear;";
+					init="GrpAAF_1_CO = group this; [""uav"",this] call f_fnc_assignGear;";
 					description="AAF UAV Operator";
 				};
 				class Item3
@@ -1770,7 +1770,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_CO_D";
-					init="GrpAAF_CO = group this; [""vd"",this] call f_fnc_assignGear;";
+					init="GrpAAF_1_CO = group this; [""vd"",this] call f_fnc_assignGear;";
 					description="AAF Driver (Repair)";
 				};
 			};
@@ -1791,7 +1791,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="UnitAAF_DC";
-					init="GrpAAF_DC = group this; [""dc"",this] call f_fnc_assignGear;";
+					init="GrpAAF_1_DC = group this; [""dc"",this] call f_fnc_assignGear;";
 					description="AAF Deputy Commander";
 				};
 				class Item1
@@ -1803,7 +1803,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_DC_M";
-					init="GrpAAF_DC = group this; [""m"",this] call f_fnc_assignGear;";
+					init="GrpAAF_1_DC = group this; [""m"",this] call f_fnc_assignGear;";
 					description="AAF Medic";
 				};
 				class Item2
@@ -1815,7 +1815,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_DC_UAV";
-					init="GrpAAF_DC = group this; [""uav"",this] call f_fnc_assignGear;";
+					init="GrpAAF_1_DC = group this; [""uav"",this] call f_fnc_assignGear;";
 					description="AAF UAV Operator";
 				};
 				class Item3
@@ -1827,7 +1827,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_DC_D";
-					init="GrpAAF_DC = group this; [""vd"",this] call f_fnc_assignGear;";
+					init="GrpAAF_1_DC = group this; [""vd"",this] call f_fnc_assignGear;";
 					description="AAF Driver (Repair)";
 				};
 			};
@@ -1848,8 +1848,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="UnitAAF_ASL_SL";
-					init="GrpAAF_ASL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="AAF Alpha Squad Leader";
+					init="GrpAAF_1_1_SL = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 1 Squad Leader";
 				};
 				class Item1
 				{
@@ -1860,8 +1860,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_ASL_M";
-					init="GrpAAF_ASL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="AAF Alpha Medic";
+					init="GrpAAF_1_1_SL = group this; [""m"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 1 Medic";
 				};
 			};
 		};
@@ -1882,8 +1882,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitAAF_A1_FTL";
-					init="GrpAAF_A1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="AAF Alpha 1 Fireteam Leader";
+					init="GrpAAF_1_1_1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 1 - 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -1894,8 +1894,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_A1_AR";
-					init="GrpAAF_A1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="AAF Alpha 1 Automatic Rifleman";
+					init="GrpAAF_1_1_1 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 1 - 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -1906,8 +1906,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_A1_AAR";
-					init="GrpAAF_A1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="AAF Alpha 1 Assistant Automatic Rifleman";
+					init="GrpAAF_1_1_1 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 1 - 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -1918,8 +1918,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_A1_AT";
-					init="GrpAAF_A1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="AAF Alpha 1 Rifleman (AT)";
+					init="GrpAAF_1_1_1 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 1 - 1 Rifleman (AT)";
 				};
 			};
 		};
@@ -1940,8 +1940,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitAAF_A2_FTL";
-					init="GrpAAF_A2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="AAF Alpha 2 Fireteam Leader";
+					init="GrpAAF_1_1_2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 1 - 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -1952,8 +1952,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_A2_AR";
-					init="GrpAAF_A2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="AAF Alpha 2 Automatic Rifleman";
+					init="GrpAAF_1_1_2 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 1 - 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -1964,8 +1964,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_A2_AAR";
-					init="GrpAAF_A2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="AAF Alpha 2 Assistant Automatic Rifleman";
+					init="GrpAAF_1_1_2 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 1 - 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -1976,8 +1976,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_A2_AT";
-					init="GrpAAF_A2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="AAF Alpha 2 Rifleman (AT)";
+					init="GrpAAF_1_1_2 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 1 - 2 Rifleman (AT)";
 				};
 			};
 		};
@@ -1997,8 +1997,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="UnitAAF_BSL_SL";
-					init="GrpAAF_BSL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="AAF Bravo Squad Leader";
+					init="GrpAAF_1_2_SL = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 2 Squad Leader";
 				};
 				class Item1
 				{
@@ -2010,7 +2010,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitAAF_BSL_M";
 					init="GrpAAF_BSL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="AAF Bravo Medic";
+					description="AAF 1 - 2 Medic";
 				};
 			};
 		};
@@ -2031,8 +2031,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitAAF_B1_FTL";
-					init="GrpAAF_B1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="AAF Bravo 1 Fireteam Leader";
+					init="GrpAAF_1_2_1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 2 - 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -2043,8 +2043,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_B1_AR";
-					init="GrpAAF_B1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="AAF Bravo 1 Automatic Riflemen";
+					init="GrpAAF_1_2_1 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 2 - 1 Automatic Riflemen";
 				};
 				class Item2
 				{
@@ -2055,8 +2055,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_B1_AAR";
-					init="GrpAAF_B1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="AAF Bravo 1 Assistant Automatic Rifleman";
+					init="GrpAAF_1_2_1 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 2 - 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -2067,8 +2067,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_B1_AT";
-					init="GrpAAF_B1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="AAF Bravo 1 Rifleman (AT)";
+					init="GrpAAF_1_2_1 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 2 - 1 Rifleman (AT)";
 				};
 			};
 		};
@@ -2089,8 +2089,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitAAF_B2_FTL";
-					init="GrpAAF_B2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="AAF Bravo 2 Fireteam Leader";
+					init="GrpAAF_1_2_2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 2 - 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -2101,8 +2101,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_B2_AR";
-					init="GrpAAF_B2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="AAF Bravo 2 Automatic Rifleman";
+					init="GrpAAF_1_2_2 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 2 - 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -2113,8 +2113,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_B2_AAR";
-					init="GrpAAF_B2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="AAF Bravo 2 Assistant Automatic Rifleman";
+					init="GrpAAF_1_2_2 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 2 - 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -2125,8 +2125,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_B2_AT";
-					init="GrpAAF_B2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="AAF Bravo 2 Rifleman (AT)";
+					init="GrpAAF_1_2_2 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 2 - 2 Rifleman (AT)";
 				};
 			};
 		};
@@ -2146,8 +2146,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="UnitAAF_CSL_SL";
-					init="GrpAAF_CSL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="AAF Charlie Squad Leader";
+					init="GrpAAF_1_3_SL = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 3 Squad Leader";
 				};
 				class Item1
 				{
@@ -2158,8 +2158,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_CSL_M";
-					init="GrpAAF_CSL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="AAF Charlie Medic";
+					init="GrpAAF_1_3_SL = group this; [""m"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 3 Medic";
 				};
 			};
 		};
@@ -2180,8 +2180,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitAAF_C1_FTL";
-					init="GrpAAF_C1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="AAF Charlie 1 Fireteam Leader";
+					init="GrpAAF_1_3_1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 3 - 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -2192,8 +2192,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_C1_AR";
-					init="GrpAAF_C1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="AAF Charlie 1 Automatic Rifleman";
+					init="GrpAAF_1_3_1 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 3 - 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -2204,8 +2204,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_C1_AAR";
-					init="GrpAAF_C1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="AAF Charlie 1 Assistant Automatic Rifleman";
+					init="GrpAAF_1_3_1 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 3 - 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -2216,8 +2216,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_C1_AT";
-					init="GrpAAF_C1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="AAF Charlie 1 Rifleman (AT)";
+					init="GrpAAF_1_3_1 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 3 - 1 Rifleman (AT)";
 				};
 			};
 		};
@@ -2238,8 +2238,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitAAF_C2_FTL";
-					init="GrpAAF_C2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="AAF Charlie 2 Fireteam Leader";
+					init="GrpAAF_1_3_2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 3 - 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -2250,8 +2250,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_C2_AR";
-					init="GrpAAF_C2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="AAF Charlie 2 Automatic Rifleman";
+					init="GrpAAF_1_3_2 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 3 - 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -2262,8 +2262,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_C2_AAR";
-					init="GrpAAF_C2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="AAF Charlie 2 Assistant Automatic Rifleman";
+					init="GrpAAF_1_3_2 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 3 - 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -2274,8 +2274,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_C2_AT";
-					init="GrpAAF_C2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="AAF Charlie 2 Rifleman (AT)";
+					init="GrpAAF_1_3_2 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 3 - 2 Rifleman (AT)";
 				};
 			};
 		};
@@ -2295,8 +2295,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="UnitAAF_DSL_SL";
-					init="GrpAAF_DSL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="AAF Delta Squad Leader";
+					init="GrpAAF_1_4_SL = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 4 Squad Leader";
 				};
 				class Item1
 				{
@@ -2307,8 +2307,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_DSL_M";
-					init="GrpAAF_DSL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="AAF Delta Medic";
+					init="GrpAAF_1_4_SL = group this; [""m"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 4 Medic";
 				};
 			};
 		};
@@ -2329,8 +2329,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitAAF_D1_FTL";
-					init="GrpAAF_D1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="AAF Delta 1 Fireteam Leader";
+					init="GrpAAF_1_4_1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 4 - 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -2341,8 +2341,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_D1_AR";
-					init="GrpAAF_D1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="AAF Delta 1 Automatic Rifleman";
+					init="GrpAAF_1_4_1 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 4 - 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -2353,8 +2353,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_D1_AAR";
-					init="GrpAAF_D1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="AAF Delta 1 Assistant Automatic Rifleman";
+					init="GrpAAF_1_4_1 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 4 - 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -2365,8 +2365,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_D1_AT";
-					init="GrpAAF_D1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="AAF Delta 1 Rifleman (AT)";
+					init="GrpAAF_1_4_1 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 4 - 1 Rifleman (AT)";
 				};
 			};
 		};
@@ -2387,8 +2387,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitAAF_D2_FTL";
-					init="GrpAAF_D2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="AAF Delta 2 Fireteam Leader";
+					init="GrpAAF_1_4_2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 4 - 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -2399,8 +2399,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_D2_AR";
-					init="GrpAAF_D2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="AAF Delta 2 Automatic Rifleman";
+					init="GrpAAF_1_4_2 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 4 - 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -2411,8 +2411,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_D2_AAR";
-					init="GrpAAF_D2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="AAF Delta 2 Assistant Automatic Rifleman";
+					init="GrpAAF_1_4_2 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 4 - 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -2423,8 +2423,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitAAF_D2_AT";
-					init="GrpAAF_D2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="AAF Delta 2 Rifleman (AT)";
+					init="GrpAAF_1_4_2 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="AAF 1 - 4 - 2 Rifleman (AT)";
 				};
 			};
 		};
@@ -2443,7 +2443,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="F3_preMount_AAF_4";
-					init="[synchronizedObjects this,[""GrpAAF_CSL"",""GrpAAF_C1"",""GrpAAF_C2""],true,false] call f_fnc_mountGroups;";
+					init="[synchronizedObjects this,[""GrpAAF_1_4_SL"",""GrpAAF_1_4_1"",""GrpAAF_1_4_2""],true,false] call f_fnc_mountGroups;";
 				};
 			};
 		};
@@ -4644,7 +4644,7 @@ class Mission
 					position[]={7947.4639,22.257385,10889.854};
 					id=290;
 					side="CIV";
-					vehicle="C_man_polo_1_F";
+					vehicle="C_journalist_F";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -4664,7 +4664,7 @@ class Mission
 					position[]={7954.6553,23.490887,10889.612};
 					id=291;
 					side="CIV";
-					vehicle="C_man_polo_2_F";
+					vehicle="C_journalist_F";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -4745,7 +4745,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="F3_preMount_FIA";
-					init="[synchronizedObjects this,[""GrpFIA_ASL"",""GrpFIA_A1"",""GrpFIA_A2""],true,false] call f_fnc_mountGroups;";
+					init="[synchronizedObjects this,[""GrpFIA_1_1_SL"",""GrpFIA_1_1_1"",""GrpFIA_1_1_2""],true,false] call f_fnc_mountGroups;";
 				};
 			};
 		};
@@ -4878,7 +4878,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="F3_preMount_AAF_1";
-					init="[synchronizedObjects this,[""GrpAAF_BSL"",""GrpAAF_B1"",""GrpAAF_B2""],true,false] call f_fnc_mountGroups;";
+					init="[synchronizedObjects this,[""GrpAAF_1_2_SL"",""GrpAAF_1_2_1"",""GrpAAF_1_2_2""],true,false] call f_fnc_mountGroups;";
 				};
 			};
 		};
@@ -4897,7 +4897,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="F3_preMount_AAF_2";
-					init="[synchronizedObjects this,[""GrpAAF_CSL"",""GrpAAF_C1"",""GrpAAF_C2""],true,false] call f_fnc_mountGroups;";
+					init="[synchronizedObjects this,[""GrpAAF_1_3_SL"",""GrpAAF_1_3_1"",""GrpAAF_1_3_2""],true,false] call f_fnc_mountGroups;";
 				};
 			};
 		};
@@ -4916,7 +4916,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="F3_preMount_AAF_3";
-					init="[synchronizedObjects this,[""GrpAAF_CO"",""GrpAAF_DC""],true,false] call f_fnc_mountGroups;";
+					init="[synchronizedObjects this,[""GrpAAF_1_CO"",""GrpAAF_1_DC""],true,false] call f_fnc_mountGroups;";
 				};
 			};
 		};
@@ -4935,7 +4935,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="F3_preMount_FIA_1";
-					init="[synchronizedObjects this,[""GrpFIA_BSL"",""GrpFIA_B1"",""GrpFIA_B2""],true,false] call f_fnc_mountGroups;";
+					init="[synchronizedObjects this,[""GrpFIA_1_2_SL"",""GrpFIA_1_2_1"",""GrpFIA_1_2_2""],true,false] call f_fnc_mountGroups;";
 				};
 			};
 		};
@@ -4954,7 +4954,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="F3_preMount_FIA_2";
-					init="[synchronizedObjects this,[""GrpFIA_CSL"",""GrpFIA_C1"",""GrpFIA_C2""],true,false] call f_fnc_mountGroups;";
+					init="[synchronizedObjects this,[""GrpFIA_1_3_SL"",""GrpFIA_1_3_1"",""GrpFIA_1_3_2""],true,false] call f_fnc_mountGroups;";
 					syncId=0;
 					synchronizations[]={0};
 				};
@@ -4975,7 +4975,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="F3_preMount_FIA_3";
-					init="[synchronizedObjects this,[""GrpFIA_CO"",""GrpFIA_DC""],true,false] call f_fnc_mountGroups;";
+					init="[synchronizedObjects this,[""GrpFIA_1_CO"",""GrpFIA_1_DC""],true,false] call f_fnc_mountGroups;";
 				};
 			};
 		};
@@ -6335,7 +6335,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="UnitFIA_CO";
-					init="GrpFIA_CO = group this; [""co"",this] call f_fnc_assignGear;";
+					init="GrpFIA_1_CO = group this; [""co"",this] call f_fnc_assignGear;";
 					description="FIA Commander";
 				};
 				class Item1
@@ -6348,7 +6348,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitFIA_CO_M";
-					init="GrpFIA_CO = group this; [""m"",this] call f_fnc_assignGear;";
+					init="GrpFIA_1_CO = group this; [""m"",this] call f_fnc_assignGear;";
 					description="FIA Medic";
 				};
 				class Item2
@@ -6360,7 +6360,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_CO_UAV";
-					init="GrpFIA_CO = group this; [""uav"",this] call f_fnc_assignGear;";
+					init="GrpFIA_1_CO = group this; [""uav"",this] call f_fnc_assignGear;";
 					description="FIA UAV Operator";
 				};
 				class Item3
@@ -6372,7 +6372,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_CO_D";
-					init="GrpFIA_CO = group this; [""vd"",this] call f_fnc_assignGear;";
+					init="GrpFIA_1_CO = group this; [""vd"",this] call f_fnc_assignGear;";
 					description="FIA Driver (Repair)";
 				};
 			};
@@ -6394,7 +6394,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="UnitFIA_DC";
-					init="GrpFIA_DC = group this; [""dc"",this] call f_fnc_assignGear;";
+					init="GrpFIA_1_DC = group this; [""dc"",this] call f_fnc_assignGear;";
 					description="FIA Deputy Commander";
 				};
 				class Item1
@@ -6407,7 +6407,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitFIA_DC_M";
-					init="GrpFIA_DC = group this; [""m"",this] call f_fnc_assignGear;";
+					init="GrpFIA_1_DC = group this; [""m"",this] call f_fnc_assignGear;";
 					description="FIA Medic";
 				};
 				class Item2
@@ -6419,7 +6419,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_DC_UAV";
-					init="GrpFIA_DC = group this; [""uav"",this] call f_fnc_assignGear;";
+					init="GrpFIA_1_DC = group this; [""uav"",this] call f_fnc_assignGear;";
 					description="FIA UAV Operator";
 				};
 				class Item3
@@ -6431,7 +6431,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_DC_D";
-					init="GrpFIA_DC = group this; [""vd"",this] call f_fnc_assignGear;";
+					init="GrpFIA_1_DC = group this; [""vd"",this] call f_fnc_assignGear;";
 					description="FIA Driver (Repair)";
 				};
 			};
@@ -6453,8 +6453,8 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="UnitFIA_ASL_SL";
-					init="GrpFIA_ASL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="FIA Alpha Squad Leader";
+					init="GrpFIA_1_1_SL = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 1 Squad Leader";
 				};
 				class Item1
 				{
@@ -6466,8 +6466,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitFIA_ASL_M";
-					init="GrpFIA_ASL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="FIA Alpha Medic";
+					init="GrpFIA_1_1_SL = group this; [""m"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 1 Medic";
 				};
 			};
 		};
@@ -6488,8 +6488,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitFIA_A1_FTL";
-					init="GrpFIA_A1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="FIA Alpha 1 Fireteam Leader";
+					init="GrpFIA_1_1_1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 1 - 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -6500,8 +6500,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_A1_AR";
-					init="GrpFIA_A1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="FIA Alpha 1 Automatic Rifleman";
+					init="GrpFIA_1_1_1 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 1 - 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -6512,8 +6512,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_A1_AAR";
-					init="GrpFIA_A1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="FIA Alpha 1 Assistant Automatic Rifleman";
+					init="GrpFIA_1_1_1 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 1 - 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -6524,8 +6524,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_A1_AT";
-					init="GrpFIA_A1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="FIA Alpha 1 Rifleman (AT)";
+					init="GrpFIA_1_1_1 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 1 - 1 Rifleman (AT)";
 				};
 			};
 		};
@@ -6546,8 +6546,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitFIA_A2_FTL";
-					init="GrpFIA_A2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="FIA Alpha 2 Fireteam Leader";
+					init="GrpFIA_1_1_2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 1 - 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -6558,8 +6558,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_A2_AR";
-					init="GrpFIA_A2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="FIA Alpha 2 Automatic Rifleman";
+					init="GrpFIA_1_1_2 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 1 - 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -6570,8 +6570,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_A2_AAR";
-					init="GrpFIA_A2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="FIA Alpha 2 Assistant Automatic Rifleman";
+					init="GrpFIA_1_1_2 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 1 - 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -6582,8 +6582,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_A2_AT";
-					init="GrpFIA_A2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="FIA Alpha 2 Rifleman (AT)";
+					init="GrpFIA_1_1_2 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 1 - 2 Rifleman (AT)";
 				};
 			};
 		};
@@ -6604,8 +6604,8 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="UnitFIA_BSL_SL";
-					init="GrpFIA_BSL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="FIA Bravo Squad Leader";
+					init="GrpFIA_1_2_SL = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 2 Squad Leader";
 				};
 				class Item1
 				{
@@ -6617,8 +6617,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitFIA_BSL_M";
-					init="GrpFIA_BSL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="FIA Bravo Medic";
+					init="GrpFIA_1_2_SL = group this; [""m"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 2 Medic";
 				};
 			};
 		};
@@ -6639,8 +6639,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitFIA_B1_FTL";
-					init="GrpFIA_B1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="FIA Bravo 1 Fireteam Leader";
+					init="GrpFIA_1_2_1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 2 - 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -6651,8 +6651,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_B1_AR";
-					init="GrpFIA_B1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="FIA Bravo 1 Automatic Rifleman";
+					init="GrpFIA_1_2_1 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 2 - 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -6663,8 +6663,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_B1_AAR";
-					init="GrpFIA_B1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="FIA Bravo 1 Assistant Automatic Rifleman";
+					init="GrpFIA_1_2_1 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 2 - 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -6675,8 +6675,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_B1_AT";
-					init="GrpFIA_B1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="FIA Bravo 1 Rifleman (AT)";
+					init="GrpFIA_1_2_1 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 2 - 1 Rifleman (AT)";
 				};
 			};
 		};
@@ -6697,8 +6697,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitFIA_B2_FTL";
-					init="GrpFIA_B2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="FIA Bravo 2 Fireteam Leader";
+					init="GrpFIA_1_2_2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 2 - 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -6709,8 +6709,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_B2_AR";
-					init="GrpFIA_B2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="FIA Bravo 2 Automatic Rifleman";
+					init="GrpFIA_1_2_2 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 2 - 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -6721,8 +6721,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_B2_AAR";
-					init="GrpFIA_B2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="FIA Bravo 2 Assistant Automatic Rifleman";
+					init="GrpFIA_1_2_2 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 2 - 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -6733,8 +6733,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_B2_AT";
-					init="GrpFIA_B2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="FIA Bravo 2 Rifleman (AT)";
+					init="GrpFIA_1_2_2 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 2 - 2 Rifleman (AT)";
 				};
 			};
 		};
@@ -6755,8 +6755,8 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="UnitFIA_CSL_SL";
-					init="GrpFIA_CSL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="FIA Charlie Squad Leader";
+					init="GrpFIA_1_3_SL = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 3 Squad Leader";
 				};
 				class Item1
 				{
@@ -6768,8 +6768,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitFIA_CSL_M";
-					init="GrpFIA_CSL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="FIA Charlie Medic";
+					init="GrpFIA_1_3_SL = group this; [""m"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 3 Medic";
 				};
 			};
 		};
@@ -6790,8 +6790,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitFIA_C1_FTL";
-					init="GrpFIA_C1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="FIA Charlie 1 Fireteam Leader";
+					init="GrpFIA_1_3_1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 3 - 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -6802,8 +6802,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_C1_AR";
-					init="GrpFIA_C1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="FIA Charlie 1 Automatic Rifleman";
+					init="GrpFIA_1_3_1 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 3 - 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -6814,8 +6814,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_C1_AAR";
-					init="GrpFIA_C1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="FIA Charlie 1 Assistant Automatic Rifleman";
+					init="GrpFIA_1_3_1 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 3 - 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -6826,8 +6826,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_C1_AT";
-					init="GrpFIA_C1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="FIA Charlie 1 Rifleman (AT)";
+					init="GrpFIA_1_3_1 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 3 - 1 Rifleman (AT)";
 				};
 			};
 		};
@@ -6848,8 +6848,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitFIA_C2_FTL";
-					init="GrpFIA_C2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="FIA Charlie 2 Fireteam Leader";
+					init="GrpFIA_1_3_2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 3 - 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -6860,8 +6860,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_C2_AR";
-					init="GrpFIA_C2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="FIA Charlie 2 Automatic Rifleman";
+					init="GrpFIA_1_3_2 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 3 - 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -6872,8 +6872,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_C2_AAR";
-					init="GrpFIA_C2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="FIA Charlie 2 Assistant Automatic Rifleman";
+					init="GrpFIA_1_3_2 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 3 - 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -6884,8 +6884,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_C2_AT";
-					init="GrpFIA_C2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="FIA Charlie 2 Rifleman (AT)";
+					init="GrpFIA_1_3_2 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 3 - 2 Rifleman (AT)";
 				};
 			};
 		};
@@ -6904,7 +6904,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="F3_preMount_FIA_4";
-					init="[synchronizedObjects this,[""GrpFIA_DSL"",""GrpFIA_D1"",""GrpFIA_D2""],true,false] call f_fnc_mountGroups;";
+					init="[synchronizedObjects this,[""GrpFIA_1_4_SL"",""GrpFIA_1_4_1"",""GrpFIA_1_4_2""],true,false] call f_fnc_mountGroups;";
 					syncId=1;
 					synchronizations[]={1};
 				};
@@ -6927,8 +6927,8 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="UnitFIA_DSL_SL";
-					init="GrpFIA_DSL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="FIA Delta Squad Leader";
+					init="GrpFIA_1_4_SL = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 4 Squad Leader";
 				};
 				class Item1
 				{
@@ -6940,8 +6940,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitFIA_DSL_M";
-					init="GrpFIA_DSL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="FIA Delta Medic";
+					init="GrpFIA_1_4_SL = group this; [""m"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 4 Medic";
 				};
 			};
 		};
@@ -6962,8 +6962,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitFIA_D1_FTL";
-					init="GrpFIA_D1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="FIA Delta 1 Fireteam Leader";
+					init="GrpFIA_1_4_1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 4 - 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -6974,8 +6974,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_D1_AR";
-					init="GrpFIA_D1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="FIA Delta 1 Automatic Rifleman";
+					init="GrpFIA_1_4_1 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 4 - 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -6986,8 +6986,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_D1_AAR";
-					init="GrpFIA_D1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="FIA Delta 1 Assistant Automatic Rifleman";
+					init="GrpFIA_1_4_1 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 4 - 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -6998,8 +6998,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_D1_AT";
-					init="GrpFIA_D1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="FIA Delta 1 Rifleman (AT)";
+					init="GrpFIA_1_4_1 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 4 - 1 Rifleman (AT)";
 				};
 			};
 		};
@@ -7020,8 +7020,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitFIA_D2_FTL";
-					init="GrpFIA_D2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="FIA Delta 2 Fireteam Leader";
+					init="GrpFIA_1_4_2 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 4 - 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -7032,8 +7032,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_D2_AR";
-					init="GrpFIA_D2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="FIA Delta 2 Automatic Rifleman";
+					init="GrpFIA_1_4_2 = group this; [""ar"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 4 - 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -7044,8 +7044,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_D2_AAR";
-					init="GrpFIA_D2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="FIA Delta 2 Assistant Automatic Rifleman";
+					init="GrpFIA_1_4_2 = group this; [""aar"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 4 - 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -7056,8 +7056,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitFIA_D2_AT";
-					init="GrpFIA_D2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="FIA Delta 2 Rifleman (AT)";
+					init="GrpFIA_1_4_2 = group this; [""rat"",this] call f_fnc_assignGear;";
+					description="FIA 1 - 4 - 2 Rifleman (AT)";
 				};
 			};
 		};
