@@ -114,12 +114,13 @@ if(_typeOfUnit != "NIL") then {
 
         // set primary channel frequency
         _freq = _sl_groups select (_sl_unit_group_index + 1);
+        hint _freq
         [(call TFAR_fnc_activeSwRadio), 1, _freq] call TFAR_fnc_SetChannelFrequency;
         
         // If unit is leader of group, set alternate radio channel to CO/DC channel
         if (_unit == (leader (group _unit))) then {
           [(call TFAR_fnc_activeSwRadio), 2, "100"] call TFAR_fnc_SetChannelFrequency;
-          [(call TFAR_fnc_ActiveSWRadio), 2] call TFAR_fnc_setAdditionalSwStereo;
+          [(call TFAR_fnc_ActiveSWRadio), 1] call TFAR_fnc_setAdditionalSwChannel;
         };
       };
 
@@ -127,12 +128,13 @@ if(_typeOfUnit != "NIL") then {
 
         // set primary channel frequency
         _freq = _ft_groups select (_ft_unit_group_index + 1);
+        hint _freq
         [(call TFAR_fnc_activeSwRadio), 1, _freq] call TFAR_fnc_SetChannelFrequency;
         
         // If unit is leader of group, set alternate radio channel to SL channel
         if (_unit == (leader (group _unit))) then {
           [(call TFAR_fnc_activeSwRadio), 2, (round _freq)] call TFAR_fnc_SetChannelFrequency;
-          [(call TFAR_fnc_ActiveSWRadio), 2] call TFAR_fnc_setAdditionalSwStereo;
+          [(call TFAR_fnc_ActiveSWRadio), 1] call TFAR_fnc_setAdditionalSwChannel;
         };
         
       };
