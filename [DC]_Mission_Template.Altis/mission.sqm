@@ -978,7 +978,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_ASL_SL";
 					init="GrpCSAT_1_1_SL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="CSAT Alpha Squad Leader";
+					description="CSAT 1 - 1 Squad Leader";
 				};
 				class Item1
 				{
@@ -992,7 +992,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_ASL_M";
 					init="GrpCSAT_1_1_SL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="CSAT Alpha Medic";
+					description="CSAT 1 - 1 Medic";
 				};
 			};
 		};
@@ -1015,7 +1015,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_A1_FTL";
 					init="GrpCSAT_1_1_1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="CSAT Alpha 1 Fireteam Leader";
+					description="CSAT 1 - 1 - 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -1028,7 +1028,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_A1_AR";
 					init="GrpCSAT_1_1_1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="CSAT Alpha 1 Automatic Rifleman";
+					description="CSAT 1 - 1 - 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -1041,7 +1041,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_A1_AAR";
 					init="GrpCSAT_1_1_1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="CSAT Alpha 1 Assistant Automatic Rifleman";
+					description="CSAT 1 - 1 - 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -1054,7 +1054,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_A1_AT";
 					init="GrpCSAT_1_1_1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="CSAT Alpha 1 Rifleman (AT)";
+					description="CSAT 1 - 1 - 1 Rifleman (AT)";
 				};
 			};
 		};
@@ -1077,7 +1077,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_A2_FTL";
 					init="GrpCSAT_1_1_2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="CSAT Alpha 2 Fireteam Leader";
+					description="CSAT 1 - 1 - 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -1090,7 +1090,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_A2_AR";
 					init="GrpCSAT_1_1_2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="CSAT Alpha 2 Automatic Rifleman";
+					description="CSAT 1 - 1 - 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -1103,7 +1103,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_A2_AAR";
 					init="GrpCSAT_1_1_2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="CSAT Alpha 2 Assistant Automatic Rifleman";
+					description="CSAT 1 - 1 - 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -1116,7 +1116,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_A2_AT";
 					init="GrpCSAT_1_1_2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="CSAT Alpha 2 Rifleman (AT)";
+					description="CSAT 1 - 1 - 2 Rifleman (AT)";
 				};
 			};
 		};
@@ -1139,7 +1139,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_BSL_SL";
 					init="GrpCSAT_1_2_SL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="CSAT Bravo Squad Leader";
+					description="CSAT 1 - 2 Squad Leader";
 				};
 				class Item1
 				{
@@ -1153,7 +1153,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_BSL_M";
 					init="GrpCSAT_1_2_SL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="CSAT Bravo Medic";
+					description="CSAT 1 - 2 Medic";
 				};
 			};
 		};
@@ -1176,7 +1176,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_B1_FTL";
 					init="GrpCSAT_1_2_1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="CSAT Bravo 1 Fireteam Leader";
+					description="CSAT 1 - 2 - 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -1189,7 +1189,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_B1_AR";
 					init="GrpCSAT_1_2_1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="CSAT Bravo 1 Automatic Rifleman";
+					description="CSAT 1 - 2 - 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -1202,7 +1202,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_B1_AAR";
 					init="GrpCSAT_1_2_1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="CSAT Bravo 1 Assistant Automatic Rifleman";
+					description="CSAT 1 - 2 - 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -1215,7 +1215,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_B1_AT";
 					init="GrpCSAT_1_2_1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="CSAT Bravo 1 Rifleman (AT)";
+					description="CSAT 1 - 2 - 1 Rifleman (AT)";
 				};
 			};
 		};
@@ -1238,7 +1238,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_B2_FTL";
 					init="GrpCSAT_1_2_2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="CSAT Bravo 2 Fireteam Leader";
+					description="CSAT 1 - 2 - 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -1251,7 +1251,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_B2_AR";
 					init="GrpCSAT_1_2_2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="CSAT Bravo 2 Automatic Rifleman";
+					description="CSAT 1 - 2 - 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -1264,7 +1264,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_B2_AAR";
 					init="GrpCSAT_1_2_2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="CSAT Bravo 2 Assistant Automatic Rifleman";
+					description="CSAT 1 - 2 - 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -1277,7 +1277,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_B2_AT";
 					init="GrpCSAT_1_2_2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="CSAT Bravo 2 Rifleman (AT)";
+					description="CSAT 1 - 2 - 2 Rifleman (AT)";
 				};
 			};
 		};
@@ -1300,7 +1300,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_CSL_SL";
 					init="GrpCSAT_1_3_SL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="CSAT Charlie Squad Leader";
+					description="CSAT 1 - 3 Squad Leader";
 				};
 				class Item1
 				{
@@ -1314,7 +1314,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_CSL_M";
 					init="GrpCSAT_1_3_SL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="CSAT Charlie Medic";
+					description="CSAT 1 - 3 Medic";
 				};
 			};
 		};
@@ -1337,7 +1337,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_C1_FTL";
 					init="GrpCSAT_1_3_1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="CSAT Charlie 1 Fireteam Leader";
+					description="CSAT 1 - 3 - 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -1350,7 +1350,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_C1_AR";
 					init="GrpCSAT_1_3_1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="CSAT Charlie 1 Automatic Rifleman";
+					description="CSAT 1 - 3 - 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -1363,7 +1363,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_C1_AAR";
 					init="GrpCSAT_1_3_1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="CSAT Charlie 1 Assistant Automatic Rifleman";
+					description="CSAT 1 - 3 - 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -1376,7 +1376,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_C1_AT";
 					init="GrpCSAT_1_3_1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="CSAT Charlie 1 Rifleman (AT)";
+					description="CSAT 1 - 3 - 1 Rifleman (AT)";
 				};
 			};
 		};
@@ -1399,7 +1399,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_C2_FTL";
 					init="GrpCSAT_1_3_2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="CSAT Charlie 2 Fireteam Leader";
+					description="CSAT 1 - 3 - 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -1412,7 +1412,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_C2_AR";
 					init="GrpCSAT_1_3_2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="CSAT Charlie 2 Automatic Rifleman";
+					description="CSAT 1 - 3 - 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -1425,7 +1425,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_C2_AAR";
 					init="GrpCSAT_1_3_2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="CSAT Charlie 2 Assistant Automatic Rifleman";
+					description="CSAT 1 - 3 - 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -1438,7 +1438,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_C2_AT";
 					init="GrpCSAT_1_3_2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="CSAT Charlie 2 Rifleman (AT)";
+					description="CSAT 1 - 3 - 2 Rifleman (AT)";
 				};
 			};
 		};
@@ -1461,7 +1461,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_DSL_SL";
 					init="GrpCSAT_1_4_SL = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="CSAT Delta Squad Leader";
+					description="CSAT 1 - 4 Squad Leader";
 				};
 				class Item1
 				{
@@ -1475,7 +1475,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_DSL_M";
 					init="GrpCSAT_1_4_SL = group this; [""m"",this] call f_fnc_assignGear;";
-					description="CSAT Delta Medic";
+					description="CSAT 1 - 4 Medic";
 				};
 			};
 		};
@@ -1498,7 +1498,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_D1_FTL";
 					init="GrpCSAT_1_4_1 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="CSAT Delta 1 Fireteam Leader";
+					description="CSAT 1 - 4 - 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -1511,7 +1511,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_D1_AR";
 					init="GrpCSAT_1_4_1 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="CSAT Delta 1 Automatic Rifleman";
+					description="CSAT 1 - 4 - 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -1524,7 +1524,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_D1_AAR";
 					init="GrpCSAT_1_4_1 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="CSAT Delta 1 Assistant Automatic Rifleman";
+					description="CSAT 1 - 4 - 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -1537,7 +1537,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_D1_AT";
 					init="GrpCSAT_1_4_1 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="CSAT Delta 1 Rifleman (AT)";
+					description="CSAT 1 - 4 - 1 Rifleman (AT)";
 				};
 			};
 		};
@@ -1560,7 +1560,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_D2_FTL";
 					init="GrpCSAT_1_4_2 = group this; [""ftl"",this] call f_fnc_assignGear;";
-					description="CSAT Delta 2 Fireteam Leader";
+					description="CSAT 1 - 4 - 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -1573,7 +1573,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_D2_AR";
 					init="GrpCSAT_1_4_2 = group this; [""ar"",this] call f_fnc_assignGear;";
-					description="CSAT Delta 2 Automatic Rifleman";
+					description="CSAT 1 - 4 - 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -1586,7 +1586,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_D2_AAR";
 					init="GrpCSAT_1_4_2 = group this; [""aar"",this] call f_fnc_assignGear;";
-					description="CSAT Delta 2 Assistant Automatic Rifleman";
+					description="CSAT 1 - 4 - 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -1599,7 +1599,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_D2_AT";
 					init="GrpCSAT_1_4_2 = group this; [""rat"",this] call f_fnc_assignGear;";
-					description="CSAT Delta 2 Rifleman (AT)";
+					description="CSAT 1 - 4 - 2 Rifleman (AT)";
 				};
 			};
 		};
