@@ -1,3 +1,28 @@
+MEDIX_EVT_CARRY = {
+	_actionObject = _this select 0;
+	_carrier = _actionObject;
+	player enableSimulation true;
+	player playMoveNow "ainjppnemstpsnonwrfldnon_rolltoback";
+	waitUntil { animationState player == "ainjppnemstpsnonwrfldnon_rolltoback" };
+	player setVariable ["MEDIX_ANI_READY", true, true];
+
+	waitUntil { (_carrier getVariable "MEDIX_ANI_READY") };
+	sleep 1;
+	player attachTo [_carrier, [0.35, 0.1, 0] ]; 
+	player setDir 180;
+
+	player playMoveNow "AinjPfalMstpSnonWrflDnon_carried_up";
+	waitUntil { animationState player == "AinjPfalMstpSnonWrflDnon_carried_still" };
+	player attachTo [_carrier, [0.15, 0.1, 0] ]; 
+	player setDir 0;
+};
+
+MEDIX_EVT_CARRYRELEASE = {
+	player playMoveNow "AinjPfalMstpSnonWrflDnon_carried_down";
+	waitUntil { animationState player == "AinjPpneMstpSnonWrflDnon" };
+	detach player;
+};
+
 // Public Event handlers
 "MEDIX_EVT_TREATED" addPublicVariableEventHandler {
 	_treated = (_this select 1 select 0);
@@ -13,7 +38,11 @@
 		MEDIX_EFFECT2 ppEffectAdjust [1.0, 1.0, 0.0, [0.0, 0.0, 0.0, 0.0], [0.0, 1.0, 1.0, 1.0], [0.0, 0.0, 0.0, 0.0]];
 		MEDIX_EFFECT2 ppEffectCommit 5;
 
-		[[player, false], "F_MEDIX_SetCaptive"] call BIS_fnc_MP;
+		[[player, false], "MEDIX_FNC_SETCAPTIVE"] call BIS_fnc_MP;
+
+		// Restore TFAR voice range to normal
+		if (MEDIX_PRP_TFAR > 0) then { 20 call TFAR_fnc_setVoiceVolume; };
+		if (MEDIX_PRP_TFAR > 1) then { player setVariable ["tf_unable_to_use_radio", false, true]; };
 	};
 };
 
@@ -65,6 +94,41 @@
 	};
 };
 
+"MEDIX_EVT_MOVEDINTOCARGO" addPublicVariableEventHandler {
+	_player = (_this select 1 select 0);
+	_vehicle = (_this select 1 select 1);
+	if (_player == player) then {
+		player enableSimulation true;
+		_player moveInCargo _vehicle;
+		[] spawn MEDIX_EVT_UNCONSCIOUSINVEHICLE;
+	};
+};
+
+"MEDIX_EVT_CARRIED_UP" addPublicVariableEventHandler {
+	_carrier = (_this select 1 select 0);
+	_carrying = (_this select 1 select 1);
+	if (_carrying == player) then {
+		[_carrier] spawn MEDIX_EVT_CARRY;
+	};
+};
+
+"MEDIX_EVT_CARRIED_DOWN" addPublicVariableEventHandler {
+	_carrier = (_this select 1 select 0);
+	_carrying = (_this select 1 select 1);
+	if (_carrying == player) then {
+		[] spawn MEDIX_EVT_CARRYRELEASE;
+	};
+};
+
+MEDIX_EVT_UNCONSCIOUSINVEHICLE = {
+	sleep 1;
+	waitUntil { vehicle player == player };
+	sleep 1;
+	MEDIX_EVT_UNCONSCIOUS = [player];
+	publicVariable "MEDIX_EVT_UNCONSCIOUS";
+	[player] spawn MEDIX_FNC_UNCONSCIOUS;
+};
+
 // Local Event Handlers
 MEDIX_EVT_HANDLEDAMAGE = {
 	MEDIX_CACHE_DAMAGE = damage player;
@@ -76,9 +140,23 @@ MEDIX_EVT_HANDLEDAMAGE = {
 		player setVariable ["MEDIX_ISBLEEDING", true, true];
 		player setVariable ["MEDIX_ISSTABILIZED", false, true];
 
-		MEDIX_EVT_UNCONSCIOUS = [player];
-		publicVariable "MEDIX_EVT_UNCONSCIOUS";
-		[player] spawn MEDIX_FNC_UNCONSCIOUS;
+		// Check if player is inside a vehicle
+		_playerInVehicle = nil;
+	    {
+	    	_vehicle = _x;
+	    	if (player in _vehicle) then {
+	    		_playerInVehicle = _vehicle;
+	    	};
+	    } forEach vehicles;
+	    if (!isNil "_playerInVehicle") then {
+	    	// If player is inside a vehicle, spawn a thread that waits until the player has left the vehicle, then put unconscious
+	    	[] spawn MEDIX_EVT_UNCONSCIOUSINVEHICLE;
+	    } else {
+	    	// If player is not in a vehicle, put unconscious
+			MEDIX_EVT_UNCONSCIOUS = [player];
+			publicVariable "MEDIX_EVT_UNCONSCIOUS";
+			[player] spawn MEDIX_FNC_UNCONSCIOUS;
+	    };
 	};
 
 	_hitPart = _this select 1;
