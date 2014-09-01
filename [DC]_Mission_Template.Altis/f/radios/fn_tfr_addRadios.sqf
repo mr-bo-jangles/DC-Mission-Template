@@ -110,6 +110,8 @@ if(_typeOfUnit != "NIL") then {
       _sl_unit_group_index = _sl_groups find _unit_group;
       _ft_unit_group_index = _ft_groups find _unit_group;
 
+      hint _ft_unit_group_index
+
       if (! _sl_unit_group_index == -1) then {
 
         // set primary channel frequency
