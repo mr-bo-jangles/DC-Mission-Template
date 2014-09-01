@@ -49,11 +49,10 @@ if(f_var_radios != 0) then {
         [] execVM "f\radios\tfr_serverInit.sqf";
 
       } else {
-
-        [] execVM "f\radios\tfr_clientInit.sqf";
-
         //If locally hosting, run both client and server script
+        [] execVM "f\radios\tfr_clientInit.sqf";
         if((!isDedicated) && (isServer)) then {[] execVM "f\radios\tfr_serverInit.sqf";};
+        [] execVM "f\radios\tfr_setRadioFrequenciesByGroup.sqf";
       };
 
     };
