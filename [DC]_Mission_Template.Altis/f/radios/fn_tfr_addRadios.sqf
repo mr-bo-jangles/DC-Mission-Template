@@ -38,13 +38,10 @@ if(_typeOfUnit != "NIL") then {
   // If radios are enabled in the settings
   if(!f_radios_settings_tfr_disableRadios) then {
 
-
       // Set the list of units that get a rifleman's radio
       _rifradio = ["ar","aar","rat","samag","mmgag","hmgag","matag","hatag","mtrag","sp","r","car","smg","gren"];
-
       // Set the list of units that get a shortrange radio
       _shortrange = ["co", "dc", "ftl", "m", "samg", "mmgg", "matg", "sn", "mtrg"];
-
       // Give out respective radios
 
       if (_typeOfUnit in _rifradio) then {
@@ -86,13 +83,9 @@ if(_typeOfUnit != "NIL") then {
           {player addItemToBackpack _x;} forEach _backpackItems;
         };
       };
-
   } else {
-
     // Do not assign any radios
-
   };
-
 };
 
 // ====================================================================================
