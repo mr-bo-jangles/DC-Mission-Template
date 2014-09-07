@@ -37,6 +37,24 @@ if(_typeOfUnit != "NIL") then {
 
   // If radios are enabled in the settings
   if(!f_radios_settings_tfr_disableRadios) then {
+    
+      // Give out LR backpacks according to f\radios\tfr_settings.sqf.
+      if(f_radios_settings_tfr_defaultLRBackpacks) then {
+        if (_unit == (leader (group _unit))) then {
+          //_backpackItems = backpackItems player;
+          removeBackpack _unit;
+          _unit addBackpack _radio1;
+          //{player addItemToBackpack _x;} forEach _backpackItems;
+        };
+      } else {
+        // If unit is in the list of units that receive a long-range radio, do so.
+        if(_typeOfUnit in f_radios_settings_tfr_backpackRadios) then {
+          //_backpackItems = backpackItems player;
+          removeBackpack _unit;
+          _unit addBackpack _radio1;
+          //{player addItemToBackpack _x;} forEach _backpackItems;
+        };
+      };
 
       // Set the list of units that get a rifleman's radio
       _rifradio = ["ar","aar","rat","samag","mmgag","hmgag","matag","hatag","mtrag","sp","r","car","smg","gren"];
@@ -45,7 +63,7 @@ if(_typeOfUnit != "NIL") then {
       // Give out respective radios
 
       if (_typeOfUnit in _rifradio) then {
-        _unit linkItem _radio3;
+        _unit linkItem _radio2;
       } else {
         if (_typeOfUnit in _shortrange) then {
           _unit linkItem _radio2;
@@ -62,25 +80,7 @@ if(_typeOfUnit != "NIL") then {
         if (_unit == (leader (group _unit))) then {
           _unit linkItem _radio2;
         } else {
-          _unit linkItem _radio3;
-        };
-      };
-
-      // Give out LR backpacks according to f\radios\tfr_settings.sqf.
-      if(f_radios_settings_tfr_defaultLRBackpacks) then {
-        if (_unit == (leader (group _unit))) then {
-          _backpackItems = backpackItems player;
-          removeBackpack _unit;
-          _unit addBackpack _radio1;
-          {player addItemToBackpack _x;} forEach _backpackItems;
-        };
-      } else {
-        // If unit is in the list of units that receive a long-range radio, do so.
-        if(_typeOfUnit in f_radios_settings_tfr_backpackRadios) then {
-          _backpackItems = backpackItems player;
-          removeBackpack _unit;
-          _unit addBackpack _radio1;
-          {player addItemToBackpack _x;} forEach _backpackItems;
+          _unit linkItem _radio2;
         };
       };
   } else {
