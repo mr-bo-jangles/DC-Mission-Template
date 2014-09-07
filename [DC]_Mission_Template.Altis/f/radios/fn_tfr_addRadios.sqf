@@ -52,7 +52,7 @@ if(_typeOfUnit != "NIL") then {
           //_backpackItems = backpackItems player;
           removeBackpack _unit;
           _unit addBackpack _radio1;
-          //{player addItemToBackpack _x;} forEach _backpackItems;
+          //{player addItemToBackpack _x;} forEach _backpackItems;  // adding all the items back after addign backpack causes SW radios to break.
         };
       };
 
