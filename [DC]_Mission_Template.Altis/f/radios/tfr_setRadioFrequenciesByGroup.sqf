@@ -38,14 +38,14 @@ if(alive player) then {
                     ];
 
       // Map FT group variables to frequencies
-      _ft_groups = [missionNamespace getVariable "GrpNATO_1_1_1", 101.1,
-                    missionNamespace getVariable "GrpNATO_1_1_2", 101.2,
-                    missionNamespace getVariable "GrpNATO_1_2_1", 102.1,
-                    missionNamespace getVariable "GrpNATO_1_2_2", 102.2,
-                    missionNamespace getVariable "GrpNATO_1_3_1", 103.1,
-                    missionNamespace getVariable "GrpNATO_1_3_2", 103.2,
-                    missionNamespace getVariable "GrpNATO_1_4_1", 104.1,
-                    missionNamespace getVariable "GrpNATO_1_4_2", 104.2,
+      _ft_groups = [missionNamespace getVariable "GrpNATO_1_1_A", 101.1,
+                    missionNamespace getVariable "GrpNATO_1_1_B", 101.2,
+                    missionNamespace getVariable "GrpNATO_1_2_A", 102.1,
+                    missionNamespace getVariable "GrpNATO_1_2_B", 102.2,
+                    missionNamespace getVariable "GrpNATO_1_3_A", 103.1,
+                    missionNamespace getVariable "GrpNATO_1_3_B", 103.2,
+                    missionNamespace getVariable "GrpNATO_1_4_A", 104.1,
+                    missionNamespace getVariable "GrpNATO_1_4_B", 104.2,
                     missionNamespace getVariable "GrpFIA_1_1_1", 101.1,
                     missionNamespace getVariable "GrpFIA_1_1_2", 101.2,
                     missionNamespace getVariable "GrpFIA_1_2_1", 102.1,
