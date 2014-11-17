@@ -295,21 +295,6 @@ if (_isMan) then {
 	// ADD UNIVERSAL ITEMS
 	// Add items universal to all units of this faction
 
-	removeBackpack _unit;
-	removeallweapons _unit;
-
-	// We add a single first aid kit (FAK)
-
-	_unit addItem _firstaid;
-
-	// The following code removes any pre-added NVGs
-
-	if(_nvg in (assignedItems _unit)) then
-	{
-		_unit unassignItem _nvg;
-		_unit removeItem _nvg;
-	};
-	// uncomment to remove nvgoogles
 	_unit linkItem _nvg;			// Add and equip the faction's nvg
 	_unit addItem _firstaid;		// Add a single first aid kit (FAK)
 	_unit linkItem "ItemMap";		// Add and equip the map
