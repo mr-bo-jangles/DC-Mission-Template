@@ -956,6 +956,11 @@ if (!_isMan) then
 			[_unit] execVM "f\medical\AGM_converter.sqf";
 		};
 	};
+	if (f_var_medical == 5) exitWith
+		{
+			[_unit] execVM "f\medical\CSE_converter.sqf";
+		};
+	};
 
 // ====================================================================================
 
