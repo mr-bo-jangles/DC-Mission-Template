@@ -154,9 +154,9 @@ _chemyellow =  "Chemlight_yellow";
 _chemblue = "Chemlight_blue";
 
 // Backpacks
-_bagsmall = "B_AssaultPack_mcamo";			// carries 120, weighs 20
-_bagmedium = "B_FieldPack_khk";				// carries 240, weighs 30
-_baglarge =  "B_Carryall_mcamo"; 			// carries 320, weighs 40
+_bagsmall = "rhsusf_assault_eagleaiii_ocp";			// carries 120, weighs 20
+_bagmedium = "rhsusf_assault_eagleaiii_ocp";				// carries 240, weighs 30
+_baglarge =  "rhsusf_assault_eagleaiii_ocp"; 			// carries 320, weighs 40
 _bagmediumdiver =  "B_AssaultPack_blk";		// used by divers
 _baguav = "B_UAV_01_backpack_F";			// used by UAV operator
 _baghmgg = "B_HMG_01_weapon_F";				// used by Heavy MG gunner
@@ -222,14 +222,14 @@ _specOp = [];
 
 // Basic clothing
 // The outfit-piece is randomly selected from the array for each unit
-_baseUniform = ["U_B_CombatUniform_mcam","U_B_CombatUniform_mcam_tshirt","U_B_CombatUniform_mcam_vest"];
-_baseHelmet = ["H_HelmetB","H_HelmetB_plain_mcamo"];
+_baseUniform = ["rhs_uniform_cu_ocp"];
+_baseHelmet = ["rhsusf_opscore_03_ocp","rhsusf_opscore_04_ocp"];
 _baseGlasses = [];
 
 // Armored vests
-_lightRig = ["V_TacVest_blk","V_TacVest_brn","V_TacVest_camo","V_TacVest_oli"];
-_mediumRig = ["V_PlateCarrier1_rgr","V_PlateCarrier2_rgr"]; 	// default for all infantry classes
-_heavyRig = ["V_PlateCarrier3_rgr"];
+_lightRig = ["rhsusf_iotv_ocp"];
+_mediumRig = ["rhsusf_iotv_ocp_rifleman",]; 	// default for all infantry classes
+_heavyRig = ["rhsusf_iotv_ocp_SAW"];
 
 // Diver
 _diverUniform =  ["U_B_Wetsuit"];
