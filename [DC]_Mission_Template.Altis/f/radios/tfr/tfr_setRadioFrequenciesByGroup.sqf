@@ -15,7 +15,7 @@ if(alive player) then {
 
     // If radios are enabled in the settings
     if(!f_radios_settings_tfr_disableRadios) then {
-      waitUntil {_unit globalChat "DC Radio channels script waiting for radio";sleep 1;(count (call TFAR_fnc_radiosList)) > 0;};
+      waitUntil {_unit globalChat "DC Radio channels script waiting for radio";sleep 1;(call TFAR_fnc_haveSWRadio);};
       _unit globalChat "DC Radio channels script switching channels";
 
       // Map SL group variables to frequencies
