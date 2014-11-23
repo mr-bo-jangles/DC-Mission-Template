@@ -228,7 +228,7 @@ _baseGlasses = [];
 
 // Armored vests
 _lightRig = ["rhsusf_iotv_ocp"];
-_mediumRig = ["rhsusf_iotv_ocp_rifleman",]; 	// default for all infantry classes
+_mediumRig = ["rhsusf_iotv_ocp_rifleman"]; 	// default for all infantry classes
 _heavyRig = ["rhsusf_iotv_ocp_SAW"];
 
 // Diver
@@ -954,6 +954,11 @@ if (!_isMan) then
 	if (f_var_medical == 2) exitWith
 		{
 			[_unit] execVM "f\medical\AGM_converter.sqf";
+		};
+	};
+	if (f_var_medical == 5) exitWith
+		{
+			[_unit] execVM "f\medical\CSE_converter.sqf";
 		};
 	};
 
