@@ -7111,7 +7111,7 @@ class Mission
 			vehicle="B_Heli_Transport_01_F";
 			leader=1;
 			skill=0.60000002;
-			text="S2C1";
+			text="VehNATO_TH1";
 		};
 		class Item1
 		{
@@ -7140,7 +7140,7 @@ class Mission
 			vehicle="B_Heli_Transport_01_F";
 			leader=1;
 			skill=0.60000002;
-			text="S2C5";
+			text="VehNATO_TH5";
 		};
 		class Item4
 		{
@@ -7150,7 +7150,7 @@ class Mission
 			vehicle="B_Heli_Transport_01_F";
 			leader=1;
 			skill=0.60000002;
-			text="S2C2";
+			text="VehNATO_TH2";
 		};
 		class Item5
 		{
@@ -7160,7 +7160,7 @@ class Mission
 			vehicle="B_Heli_Transport_01_F";
 			leader=1;
 			skill=0.60000002;
-			text="S2C6";
+			text="VehNATO_TH6";
 		};
 		class Item6
 		{
@@ -7170,7 +7170,7 @@ class Mission
 			vehicle="B_Heli_Transport_01_F";
 			leader=1;
 			skill=0.60000002;
-			text="S2C3";
+			text="VehNATO_TH3";
 		};
 		class Item7
 		{
@@ -7180,7 +7180,7 @@ class Mission
 			vehicle="B_Heli_Transport_01_F";
 			leader=1;
 			skill=0.60000002;
-			text="S2C4";
+			text="VehNATO_TH4";
 		};
 		class Item8
 		{
