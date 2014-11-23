@@ -12,23 +12,23 @@ _groups = [
 // Automatically assigns intelligible names to groups
 
 ["GrpNATO_1_CO","NATO CO -"],
-["GrpNATO_1_DC","NATO DC -"],
+["GrpNATO_1_PL","NATO DC -"],
 
 ["GrpNATO_1_1_SL","NATO 1 1 SL -"],
-["GrpNATO_1_1_1","NATO 1 1 1 -"],
-["GrpNATO_1_1_2","NATO 1 1 2 -"],
+["GrpNATO_1_1_A","NATO 1 1 1 -"],
+["GrpNATO_1_1_B","NATO 1 1 2 -"],
 
 ["GrpNATO_1_2_SL","NATO 1 2 SL -"],
-["GrpNATO_1_2_1","NATO 1 2 1 -"],
-["GrpNATO_1_2_2","NATO 1 2 2 -"],
+["GrpNATO_1_2_A","NATO 1 2 1 -"],
+["GrpNATO_1_2_B","NATO 1 2 2 -"],
 
 ["GrpNATO_1_3_SL","NATO 1 3 SL -"],
-["GrpNATO_1_3_1","NATO 1 3 1 -"],
-["GrpNATO_1_3_2","NATO 1 3 2 -"],
+["GrpNATO_1_3_A","NATO 1 3 1 -"],
+["GrpNATO_1_3_B","NATO 1 3 2 -"],
 
 ["GrpNATO_1_4_SL","NATO 1 4 SL -"],
-["GrpNATO_1_4_1","NATO 1 4 1 -"],
-["GrpNATO_1_4_2","NATO 1 4 2 -"],
+["GrpNATO_1_4_A","NATO 1 4 1 -"],
+["GrpNATO_1_4_B","NATO 1 4 2 -"],
 
 ["GrpNATO_MMG1","NATO MMG1 -"],
 ["GrpNATO_HMG1","NATO HMG1 -"],
