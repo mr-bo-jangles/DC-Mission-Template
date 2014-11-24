@@ -138,8 +138,15 @@ _smokegrenade = "SmokeShell";
 _smokegrenadegreen = "SmokeShellGreen";
 
 // misc medical items.
+
 _firstaid = "FirstAidKit";
 _medkit = "Medikit";
+
+if (f_var_medical == 5) exitWith
+{
+	_firstaid = "cse_bandages_basic";
+	_medkit = "cse_personal_aid_kit";
+};
 
 // Night Vision Goggles (NVGoggles)
 _nvg = "NVGoggles";
@@ -955,12 +962,11 @@ if (!_isMan) then
 		{
 			[_unit] execVM "f\medical\AGM_converter.sqf";
 		};
-	};
+};
 	if (f_var_medical == 5) exitWith
 		{
 			[_unit] execVM "f\medical\CSE_converter.sqf";
 		};
-	};
 
 // ====================================================================================
 

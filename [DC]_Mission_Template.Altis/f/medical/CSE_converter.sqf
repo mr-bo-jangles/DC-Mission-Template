@@ -55,7 +55,7 @@ if (_cntFAK <= 25 && {_cntMediKit == 1}) then // Squad sized cargo
 		_unit addItemCargoGlobal ["cse_packing_bandage", 15];
 		_unit addItemCargoGlobal ["cse_morphine", 15];
 		_unit addItemCargoGlobal ["cse_epinephrine", 15];
-		_unit addItemCargoGlobal ["AGM_Bloodbag", 5];
+		//_unit addItemCargoGlobal ["AGM_Bloodbag", 5];
 	};
 
 if (_cntFAK > 50 || {_cntMediKit > 1}) then // Platoon sized Cargo
@@ -65,5 +65,5 @@ if (_cntFAK > 50 || {_cntMediKit > 1}) then // Platoon sized Cargo
 		_unit addItemCargoGlobal ["cse_packing_bandage", 45];
 		_unit addItemCargoGlobal ["cse_morphine", 45];
 		_unit addItemCargoGlobal ["cse_epinephrine", 45];
-		_unit addItemCargoGlobal ["AGM_Bloodbag", 15];
+		//_unit addItemCargoGlobal ["AGM_Bloodbag", 15];
 	};
