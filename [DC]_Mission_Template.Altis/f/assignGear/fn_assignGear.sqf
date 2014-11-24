@@ -100,7 +100,7 @@ if (f_var_debugMode == 1) then
 
 
 if (_faction == "blu_f") then {
-#include "f_assignGear_nato.sqf"
+	#include "f_assignGear_nato.sqf"
 };
 
 

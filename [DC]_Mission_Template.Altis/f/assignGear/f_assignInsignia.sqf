@@ -48,20 +48,20 @@ switch (_faction) do
 {	
 	case "blu_f" : {
 		_groupBadges = [
-			["GrpNATO_ASL","NATO_ASL_Badge"],
-			["GrpNATO_A1","NATO_A1_Badge"],
-			["GrpNATO_A2","NATO_A2_Badge"],
-			["GrpNATO_A3","NATO_A3_Badge"],
-			["GrpNATO_BSL","NATO_BSL_Badge"],
-			["GrpNATO_B1","NATO_B1_Badge"],
-			["GrpNATO_B2","NATO_B2_Badge"],
-			["GrpNATO_B3","NATO_B3_Badge"],
-			["GrpNATO_CSL","NATO_CSL_Badge"],
-			["GrpNATO_C1","NATO_C1_Badge"],
-			["GrpNATO_C2","NATO_C2_Badge"],
-			["GrpNATO_C3","NATO_C3_Badge"],
+			["GrpNATO_1_1_SL","NATO_ASL_Badge"],
+			["GrpNATO_1_1_A","NATO_A1_Badge"],
+			["GrpNATO_1_1_B","NATO_A2_Badge"],
+			["GrpNATO_1_2_SL","NATO_BSL_Badge"],
+			["GrpNATO_1_2_A","NATO_B1_Badge"],
+			["GrpNATO_1_2_B","NATO_B2_Badge"],
+			["GrpNATO_1_3_SL","NATO_CSL_Badge"],
+			["GrpNATO_1_3_A","NATO_C1_Badge"],
+			["GrpNATO_1_3_B","NATO_C2_Badge"],
+			["GrpNATO_1_4_SL","NATO_A3_Badge"],
+			["GrpNATO_1_4_A","NATO_B3_Badge"],
+			["GrpNATO_1_4_B","NATO_C3_Badge"],
 			["GrpNATO_CO","NATO_CO_Badge"],
-			["GrpNATO_DC","NATO_DC_Badge"]
+			["GrpNATO_1_PL","NATO_DC_Badge"]
 		];
 	};
 	case "opf_f": {
