@@ -61,16 +61,16 @@ STALKER-JTAC: 76.1<br /><br />
 
 DOG 1 NET (FREQUENCIES FOR AN/PRC-152)<br />
 DOG 1: 100<br />
-DOG 1-6: 106<br />
+DOG 1-6: 106<br /><br />
 DOG 1-1: 101<br />
 DOG 1-1-A: 101.1<br />
-DOG 1-1-B: 101.2<br />
+DOG 1-1-B: 101.2<br /><br />
 DOG 1-2: 102<br />
 DOG 1-2-A: 102.1<br />
-DOG 1-2-B: 102.2<br />
+DOG 1-2-B: 102.2<br /><br />
 DOG 1-3: 103<br />
 DOG 1-3-A: 103.1<br />
-DOG 1-3-B: 103.2<br />
+DOG 1-3-B: 103.2<br /><br />
 DOG 1-4: 104<br />
 DOG 1-4-A: 104.1<br />
 DOG 1-4-B: 104.2<br />
@@ -79,19 +79,20 @@ DOG 1-4-D: 104.4<br /><br />
 
 STRYKER NET (FREQUENCIES FOR AN/PRC-152)<br />
 STRYKER: 110<br />
-STRYKER 6: 116<br />
+STRYKER 6: 110.6<br />
 STRYKER VICTORS: 114<br />
 STRYKER VICTOR 1: 114.1<br />
 STRYKER VICTOR 2: 114.2<br />
 STRYKER VICTOR 3: 114.3<br />
 STRYKER VICTOR 4: 114.4<br />
-STRYKER 1: 111<br />
-STRYKER 2: 112<br />
-STRYKER 3: 113<br /><br />
+STRYKER 1: 110.1<br />
+STRYKER 2: 110.2<br />
+STRYKER 3: 110.3<br /><br />
 
 HAMMER NET (FREQUENCIES FOR AN/PRC-152)<br />
-HAMMER 1: 121<br />
-HAMMER 2: 122<br /><br />
+HAMMER: 120<br />
+HAMMER 1: 120.1<br />
+HAMMER 2: 120.2<br /><br />
 
 TOMBSTONE NET (FREQUENCIES FOR RT-1523G [ASIP])<br />
 TOMBSTONE 1: 74.1<br />
@@ -100,10 +101,11 @@ TOMBSTONE 3: 74.3<br />
 TOMBSTONE 4: 74.4<br /><br />
 
 TOMBSTONE CREW NET (FREQUENCIES FOR AN/PRC-152)<br />
-TOMBSTONE 1: 131<br />
-TOMBSTONE 2: 132<br />
-TOMBSTONE 3: 133<br />
-TOMBSTONE 4: 134<br /><br />
+TOMBSTONE: 130<br />
+TOMBSTONE 1: 130.1<br />
+TOMBSTONE 2: 130.2<br />
+TOMBSTONE 3: 130.3<br />
+TOMBSTONE 4: 130.4<br /><br />
 
 STALKER 2 CREW NET (FREQUENCIES FOR AN/PRC-152)<br />
 STALKER 2-1: 142.1<br />
