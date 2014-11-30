@@ -65,15 +65,6 @@ call
 		// If script is being run on a client
 		if (hasInterface) then
 		{
-			waitUntil{!isNil "f_var_medix_tfar"};
-			waitUntil{!isNil "f_var_radios"};
-			if (f_var_radios == 2) then
-			{
-				_medix_config = f_var_medix_tfar;
-			} else {
-				_medix_config = 0;
-			};
-			[_medix_config] execVM "medix\init.sqf";
 		};
 	};
 };

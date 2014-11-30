@@ -28,18 +28,106 @@
 _cre = player createDiaryRecord ["diary", ["Credits","
 <br/>
 *** Insert mission credits here. ***
-<br/><br/>
-Made with F3 (http://www.ferstaberinde.com/f3/en/)
 "]];
 
 // ====================================================================================
 
-// NOTES: ADMINISTRATION
+// NOTES: COMMAND AND CONTROL
 // The code below creates the administration sub-section of notes.
 
-_adm = player createDiaryRecord ["diary", ["Administration","
+_adm = player createDiaryRecord ["diary", ["Command and Control","
 <br/>
-*** Insert information on administration and logistics here. ***
+COMMAND
+<br/>
+*** Insert information on command here
+. ***
+<br/><br/>
+CONTROL
+<br/>
+*** Insert information on control here. ***
+<br /><br />
+
+COMPANY NET (FREQUENCIES FOR RT-1523G [ASIP])<br />
+DOG: 70<br />
+DOG 1: 71<br />
+STRYKER: 72<br />
+HAMMER: 73<br />
+HAMMER-FO: 73.1<br />
+TOMBSTONE: 74<br />
+FRONTRUNNER: 75<br />
+FRONTRUNNER-JTAC: 75.1<br />
+STALKER: 76<br />
+STALKER-JTAC: 76.1<br /><br />
+
+DOG 1 NET (FREQUENCIES FOR AN/PRC-152)<br />
+DOG 1: 100<br />
+DOG 1-6: 106<br />
+DOG 1-1: 101<br />
+DOG 1-1-A: 101.1<br />
+DOG 1-1-B: 101.2<br />
+DOG 1-2: 102<br />
+DOG 1-2-A: 102.1<br />
+DOG 1-2-B: 102.2<br />
+DOG 1-3: 103<br />
+DOG 1-3-A: 103.1<br />
+DOG 1-3-B: 103.2<br />
+DOG 1-4: 104<br />
+DOG 1-4-A: 104.1<br />
+DOG 1-4-B: 104.2<br />
+DOG 1-4-C: 104.3<br />
+DOG 1-4-D: 104.4<br /><br />
+
+STRYKER NET (FREQUENCIES FOR AN/PRC-152)<br />
+STRYKER: 110<br />
+STRYKER 6: 116<br />
+STRYKER VICTORS: 114<br />
+STRYKER VICTOR 1: 114.1<br />
+STRYKER VICTOR 2: 114.2<br />
+STRYKER VICTOR 3: 114.3<br />
+STRYKER VICTOR 4: 114.4<br />
+STRYKER 1: 111<br />
+STRYKER 2: 112<br />
+STRYKER 3: 113<br /><br />
+
+HAMMER NET (FREQUENCIES FOR AN/PRC-152)<br />
+HAMMER 1: 121<br />
+HAMMER 2: 122<br /><br />
+
+TOMBSTONE NET (FREQUENCIES FOR RT-1523G [ASIP])<br />
+TOMBSTONE 1: 74.1<br />
+TOMBSTONE 2: 74.2<br />
+TOMBSTONE 3: 74.3<br />
+TOMBSTONE 4: 74.4<br /><br />
+
+TOMBSTONE CREW NET (FREQUENCIES FOR AN/PRC-152)<br />
+TOMBSTONE 1: 131<br />
+TOMBSTONE 2: 132<br />
+TOMBSTONE 3: 133<br />
+TOMBSTONE 4: 134<br /><br />
+
+STALKER 2 CREW NET (FREQUENCIES FOR AN/PRC-152)<br />
+STALKER 2-1: 142.1<br />
+STALKER 2-2: 142.2<br />
+STALKER 2-3: 142.3<br />
+STALKER 2-4: 142.4<br />
+STALKER 2-5: 142.5<br />
+STALKER 2-6: 142.6
+
+"]];
+
+// ====================================================================================
+// NOTES: SUSTAINMENT
+// The code below creates the administration sub-section of notes.
+
+_adm = player createDiaryRecord ["diary", ["Sustainment","
+<br/>
+MATERIAL AND SERVICES
+<br/>
+*** Insert information about (non-)organic weaponry that will be used during the mission. ***
+<br/><br/>
+MEDICAL
+<br/>
+*** Insert information on medical logistics here. ***
 "]];
 
 // ====================================================================================
@@ -51,19 +139,15 @@ _exe = player createDiaryRecord ["diary", ["Execution","
 <br/>
 COMMANDER'S INTENT
 <br/>
-*** Insert very short summary of plan here. ***
+*** Insert Commander's Intent here. The Commander's Intent describes why the mission is being conducted (Purpose), how the mission will be conducted (Method) and when the mission is considered accomplished (Desired End-State). ***
 <br/><br/>
-MOVEMENT PLAN
+CONCEPT OF THE OPERATION
 <br/>
-*** Insert movement instructions here. ***
+*** Insert Concept of the Operation here. This section must contain a Scheme of Maneuver and a Fire Support Plan. ***
 <br/><br/>
-FIRE SUPPORT PLAN
+TASKS
 <br/>
-*** Insert fire support instructions here. ***
-<br/><br/>
-SPECIAL TASKS
-<br/>
-*** Insert instructions for specific units here. ***
+*** Insert instructions for units here. ***
 "]];
 
 // ====================================================================================
@@ -73,7 +157,7 @@ SPECIAL TASKS
 
 _mis = player createDiaryRecord ["diary", ["Mission","
 <br/>
-*** Insert the mission here. ***
+*** Insert a single mission statement here. Describe the following: Who, what, where, when and why?. Use the following sentence-structure: Our mission is to...IOT (in order to)... ***
 "]];
 
 // ====================================================================================
@@ -82,16 +166,22 @@ _mis = player createDiaryRecord ["diary", ["Mission","
 // The code below creates the situation sub-section of notes.
 
 _sit = player createDiaryRecord ["diary", ["Situation","
-<br/>
-*** Insert general information about the situation here.***
-<br/><br/>
 ENEMY FORCES
 <br/>
-*** Insert information about enemy forces here.***
+*** Insert information about enemy forces. It should contain the Enemy Composition, Disposition and Strength; Capabilities and Limitations; Enemy Most Likely Course of Action (EMLCOA); Enemy Most Dangerous Course of Action (EMDCOA). ***
 <br/><br/>
 FRIENDLY FORCES
 <br/>
-*** Insert information about friendly forces here.***
+*** Insert information about friendly participating, adjacent and supporting forces. ***
+<br /><br />
+ATTACHMENTS/DETACHMENTS<br />
+*** Insert information about any units that are attached. ***
+<br /><br />
+CIVIL/TERRAIN CONSIDERATIONS
+<br />
+*** Insert information about non-combatant presence in the AO and the appliance of the ROE.
+<br /><br />
+Insert information about the terrain ***
 "]];
 
 // ====================================================================================

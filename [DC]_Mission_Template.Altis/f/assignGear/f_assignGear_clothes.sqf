@@ -64,7 +64,7 @@ if (_typeOfUnit in _ghillie) then {
 	_glasses = _ghillieGlasses;
 };
 
-// Spec Op
+// SOF
 if (_typeOfUnit in _specOp) then {
 	_helmet = _sfHelmet;
 	_uniform = _sfUniform;
