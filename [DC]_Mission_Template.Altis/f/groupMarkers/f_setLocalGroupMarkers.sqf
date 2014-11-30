@@ -92,12 +92,10 @@ switch (_unitfaction) do
 		["GrpNATO_T3",  7, "T3", "ColorBrown"] spawn f_fnc_localGroupMarker;
 		["GrpNATO_T4",  7, "T4", "ColorBrown"] spawn f_fnc_localGroupMarker;
 		
-		["UnitNATO_CO_M", 0, "1COM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
-		["UnitNATO_PL_M", 0, "1PLM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
-		["UnitNATO_ASL_M", 0, "11M", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
-		["UnitNATO_BSL_M", 0, "12M", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
-		["UnitNATO_CSL_M", 0, "13M", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
-		["UnitNATO_DSL_M", 0, "14M", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+		["UnitNATO_D1PM", 0, "DPLM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+		["UnitNATO_SPM", 0, "SPLM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+		["UnitNATO_D1SG", 1, "DPLUAV", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+
 
 	};
 
