@@ -10,6 +10,7 @@
     } else {
 
       [] execVM "f\radios\tfr\tfr_clientInit.sqf";
+      [] execVM "f\radios\tfr\tfr_freqInit.sqf";
 
       //If locally hosting, run both client and server script
       if((!isDedicated) && (isServer)) then {[] execVM "f\radios\tfr\tfr_serverInit.sqf";};
