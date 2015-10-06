@@ -38,7 +38,7 @@ case "ctu-medic":
 	(unitBackpack _unit) addItemCargoGlobal [_medkit,1];
 	(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 6];
 	(unitBackpack _unit) addItemCargoGlobal [_firstaid, 12];
-	(unitBackpack _unit) addItemCargoGlobal [_bodyBag, 12];
+(unitBackpack _unit) addItemCargoGlobal [_bodyBag, 12];
 };
 
 case "ctu-lead":
