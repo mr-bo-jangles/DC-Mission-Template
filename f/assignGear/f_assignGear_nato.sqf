@@ -65,15 +65,15 @@ _attach2 = "acc_flashlight";	// Flashlight
 _silencer1 = "muzzle_snds_M";	// 5.56 suppressor
 _silencer2 = "muzzle_snds_H";	// 6.5 suppressor
 
-_scope1 = "optic_Holosight";	// Holosight
+_scope1 = "rhsusf_acc_compm4";	// Holosight
 _scope2 = "optic_MRCO";			// MRCO Scope - 1x - 6x
-_scope3 = "optic_SOS";			// SOS Scope - 18x - 75x
+_scope3 = "HLC_Optic_ZFSG1";			// SOS Scope - 18x - 75x
 
 _bipod1 = "bipod_01_F_snd";		// Default bipod
 _bipod2 = "bipod_02_F_blk";		// Black bipod
 
 // Default setup
-_attachments = [_attach1,_scope1]; // The default attachment set for most units, overwritten in the individual unitType
+_attachments = [_attach2, _scope1]; // The default attachment set for most units, overwritten in the individual unitType
 
 // [] = remove all
 // [_attach1,_scope1,_silencer] = remove all, add items assigned in _attach1, _scope1 and _silencer1
@@ -95,19 +95,24 @@ _hg_attachments= []; // The default attachment set for handguns, overwritten in 
 // WEAPON SELECTION
 
 // Standard Riflemen ( MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
-_rifle = "arifle_MX_pointer_F";
-_riflemag = "30Rnd_65x39_caseless_mag";
-_riflemag_tr = "30Rnd_65x39_caseless_mag_Tracer";
+_rifle = "hlc_rifle_auga2carb_b";
+_riflemag = "hlc_30Rnd_556x45_B_AUG";
+_riflemag_tr = "hlc_30Rnd_556x45_B_AUG";
 
 // Standard Carabineer (Medic, Rifleman (AT), MAT Gunner, MTR Gunner, Carabineer)
-_carbine = "arifle_MXC_F";
-_carbinemag = "30Rnd_65x39_caseless_mag";
-_carbinemag_tr = "30Rnd_65x39_caseless_mag_Tracer";
+_carbine = "rhs_weap_M590_8RD";
+_carbinemag = "rhsusf_8Rnd_00Buck";
+_carbinemag_tr = "rhsusf_8Rnd_00Buck";
 
 // Standard Submachine Gun/Personal Defence Weapon (Aircraft Pilot, Submachinegunner)
-_smg = "SMG_01_F";
-_smgmag = "30Rnd_45ACP_Mag_SMG_01";
-_smgmag_tr = "30Rnd_45ACP_Mag_SMG_01_tracer_green";
+_smg = "hlc_smg_mp5a4";
+_smgmag = "hlc_30Rnd_9x19_B_MP5";
+_smgmag_tr = "hlc_30Rnd_9x19_B_MP5";
+
+// Shotgun
+_shotgun = "rhs_weap_M590_8RD";
+_shotgunmag = "rhsusf_8Rnd_00Buck";
+_shotgunmag_tr = "rhsusf_8Rnd_00Buck";
 
 // Diver
 _diverWep = "arifle_SDAR_F";
@@ -132,18 +137,23 @@ _glflareyellow = "3Rnd_UGL_FlareYellow_F";
 _glflaregreen = "3Rnd_UGL_FlareGreen_F";
 
 // Pistols (CO, DC, Automatic Rifleman, Medium MG Gunner)
-_pistol = "hgun_Pistol_heavy_01_F";
-_pistolmag = "11Rnd_45ACP_Mag";
+_pistol = "rhsusf_weap_glock17g4";
+_pistolmag = "rhsusf_mag_17Rnd_9x19_JHP";
 
 // Grenades
-_grenade = "HandGrenade";
-_Mgrenade = "MiniGrenade";
+_grenade = "rhs_mag_m67";
+_mgrenade = "rhs_mag_m67";
+_sgrenade = "rhs_mag_mk84";
+_cgrenade = "rhs_mag_m7a3_cs";
 _smokegrenade = "SmokeShell";
 _smokegrenadegreen = "SmokeShellGreen";
 
 // misc medical items.
 _firstaid = "FirstAidKit";
 _medkit = "Medikit";
+_earPlug = "ACE_EarPlugs";
+_cableTie = "ACE_CableTie";
+_bodyBag = "ACE_bodyBag";
 
 // Night Vision Goggles (NVGoggles)
 _nvg = "NVGoggles";
@@ -158,10 +168,11 @@ _chemyellow =  "Chemlight_yellow";
 _chemblue = "Chemlight_blue";
 
 // Backpacks
-_bagsmall = "B_AssaultPack_mcamo";			// carries 120, weighs 20
-_bagmedium = "B_FieldPack_khk";				// carries 240, weighs 30
-_baglarge =  "B_Carryall_mcamo"; 			// carries 320, weighs 40
+_bagsmall = "TRYK_B_BAF_BAG_BLK";			// carries 120, weighs 20
+_bagmedium = "TRYK_B_BAF_BAG_BLK";				// carries 240, weighs 30
+_baglarge =  "TRYK_B_BAF_BAG_BLK"; 			// carries 320, weighs 40
 _bagmediumdiver =  "B_AssaultPack_blk";		// used by divers
+_bagMedic = "TRYK_B_Medbag_BK";
 _baguav = "B_UAV_01_backpack_F";			// used by UAV operator
 _baghmgg = "B_HMG_01_weapon_F";				// used by Heavy MG gunner
 _baghmgag = "B_HMG_01_support_F";			// used by Heavy MG assistant gunner
@@ -218,8 +229,8 @@ _HATmag1 = "Titan_AT";
 _HATmag2 = "Titan_AP";
 
 // Sniper
-_SNrifle = "srifle_LRR_F";
-_SNrifleMag = "7Rnd_408_Mag";
+_SNrifle = "hlc_rifle_g3sg1";
+_SNrifleMag = "hlc_20rnd_762x51_b_G3";
 
 // Engineer items
 _ATmine = "ATMine_Range_Mag";
@@ -234,8 +245,8 @@ _APmine2 = "APERSMine_Range_Mag";
 // Define classes. This defines which gear class gets which uniform
 // "medium" vests are used for all classes if they are not assigned a specific uniform
 
-_light = [];
-_heavy =  ["eng","engm"];
+_light = ["ctu-medic"];
+_heavy =  ["co", "dc", "ftl", "ctu-lead"];
 _diver = ["div"];
 _pilot = ["pp","pcc","pc"];
 _crew = ["vc","vg","vd"];
@@ -244,14 +255,14 @@ _specOp = [];
 
 // Basic clothing
 // The outfit-piece is randomly selected from the array for each unit
-_baseUniform = ["U_B_CombatUniform_mcam","U_B_CombatUniform_mcam_vest"];
-_baseHelmet = ["H_HelmetB","H_HelmetB_plain_mcamo"];
+_baseUniform = ["TRYK_U_B_BLKBLK_CombatUniform"];
+_baseHelmet = ["TRYK_H_PASGT_BLK"];
 _baseGlasses = [];
 
 // Vests
-_lightRig = ["V_BandollierB_cbr","V_BandollierB_khk"];
-_mediumRig = ["V_PlateCarrier1_rgr","V_PlateCarrier2_rgr"]; 	// default for all infantry classes
-_heavyRig = ["V_PlateCarrier3_rgr"];
+_lightRig = ["TRYK_V_Sheriff_BA_TB4"];
+_mediumRig = ["TRYK_V_tacv1L_BK"]; 	// default for all infantry classes
+_heavyRig = ["TRYK_V_Sheriff_BA_TB"];
 
 // Diver
 _diverUniform =  ["U_B_Wetsuit"];
@@ -272,9 +283,9 @@ _crewRig = ["V_TacVest_blk"];
 _crewGlasses = [];
 
 // Ghillie
-_ghillieUniform = ["U_B_GhillieSuit"]; //DLC alternatives: ["U_B_FullGhillie_lsh","U_B_FullGhillie_ard","U_B_FullGhillie_sard"];
+_ghillieUniform = ["TRYK_U_B_BLKBLK_CombatUniform"]; //DLC alternatives: ["U_B_FullGhillie_lsh","U_B_FullGhillie_ard","U_B_FullGhillie_sard"];
 _ghillieHelmet = [];
-_ghillieRig = ["V_Chestrig_rgr"];
+_ghillieRig = ["TRYK_V_Sheriff_BA_TB"];
 _ghillieGlasses = [];
 
 // Spec Op
@@ -353,6 +364,107 @@ switch (_typeofUnit) do
 {
 
 // ====================================================================================
+
+
+	case "ctu-acr":
+	{
+		_unit addmagazines [_riflemag,10];
+		_unit addweapon _rifle;
+		_unit addmagazines [_pistolmag,4];
+		_unit addweapon _pistol;
+		{_unit addItem _firstaid} forEach [1,2,3,4];
+		{_unit addItem _cableTie} forEach [1,2];
+		{_unit addItem _earPlug} forEach [1];
+		_unit addmagazines [_grenade,1];
+		_unit addmagazines [_sgrenade,3];
+		_unit addmagazines [_cgrenade,1];
+		this addGoggles "TRYK_kio_balaclava_BLK";
+		["ctu-acr"] call _backpack;
+	};
+
+	case "ctu-smg":
+	{
+		_unit addmagazines [_smgmag,10];
+		_unit addweapon _smg;
+		_unit addmagazines [_pistolmag,4];
+		_unit addweapon _pistol;
+		{_unit addItem _firstaid} forEach [1,2,3,4];
+		{_unit addItem _cableTie} forEach [1,2];
+		{_unit addItem _earPlug} forEach [1];
+		_unit addmagazines [_grenade,1];
+		_unit addmagazines [_sgrenade,3];
+		_unit addmagazines [_cgrenade,2];
+		this addGoggles "TRYK_kio_balaclava_BLK";
+		["ctu-smg"] call _backpack;
+	};
+
+	case "ctu-shotgun":
+	{
+		_unit addmagazines [_shotgunmag,10];
+		_unit addweapon _shotgun;
+		_unit addmagazines [_pistolmag,4];
+		_unit addweapon _pistol;
+		{_unit addItem _firstaid} forEach [1,2,3,4];
+		{_unit addItem _cableTie} forEach [1,2];
+		{_unit addItem _earPlug} forEach [1];
+		_unit addmagazines [_grenade,2];
+		_unit addmagazines [_sgrenade,2];
+		_unit addmagazines [_cgrenade,2];
+		this addGoggles "TRYK_kio_balaclava_BLK";
+		["ctu-shotgun"] call _backpack;
+	};
+
+	case "ctu-sniper":
+	{
+		_unit addmagazines [_SNrifleMag,9];
+		_unit addweapon _SNrifle;
+		_unit addmagazines [_pistolmag,4];
+		_unit addweapon _pistol;
+		_attachments = [_scope3];
+		{_unit addItem _firstaid} forEach [1,2,3,4];
+		{_unit addItem _cableTie} forEach [1,2];
+		{_unit addItem _earPlug} forEach [1];
+		_unit addmagazines [_grenade,2];
+		_unit addmagazines [_sgrenade,2];
+		_unit addmagazines [_cgrenade,2];
+		this addGoggles "TRYK_kio_balaclava_BLK";
+		["ctu-sniper"] call _backpack;
+	};
+
+	case "ctu-medic":
+	{
+		_unit addmagazines [_smgmag,10];
+		_unit addweapon _smg;
+		_unit addmagazines [_pistolmag,4];
+		_unit addweapon _pistol;
+		{_unit addItem _firstaid} forEach [1,2,3,4,5,6,7,8,9,10];
+		{_unit addItem _cableTie} forEach [1,2];
+		{_unit addItem _earPlug} forEach [1];
+		{_unit addItem _bodyBag} forEach [1,2];
+		_unit addmagazines [_grenade,2];
+		_unit addmagazines [_sgrenade,2];
+		_unit addmagazines [_cgrenade,2];
+		this addGoggles "TRYK_kio_balaclava_BLK";
+		["ctu-medic"] call _backpack;
+	};
+
+	case "ctu-lead":
+	{
+		_unit addmagazines [_riflemag,10];
+		_unit addweapon _rifle;
+		_unit addmagazines [_pistolmag,4];
+		_unit addweapon _pistol;
+		{_unit addItem _firstaid} forEach [1,2,3,4];
+		{_unit addItem _cableTie} forEach [1,2];
+		{_unit addItem _earPlug} forEach [1];
+		_unit addmagazines [_grenade,1];
+		_unit addmagazines [_sgrenade,3];
+		_unit addmagazines [_cgrenade,1];
+		this addGoggles "TRYK_kio_balaclava_BLK";
+		["ctu-lead"] call _backpack;
+	};
+
+
 
 // LOADOUT: COMMANDER
 	case "co":

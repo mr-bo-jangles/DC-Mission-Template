@@ -3,6 +3,49 @@
 // called from the role loadouts.
 
 // BACKPACK: MEDIC
+
+case "ctu-acr":
+{
+
+};
+
+case "ctu-smg":
+{
+};
+
+case "ctu-shotgun":
+{
+	_unit addBackpack _bagmedium;
+	clearMagazineCargoGlobal (unitBackpack _unit);
+	(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 6];
+	(unitBackpack _unit) addItemCargoGlobal [_firstaid, 12];
+	(unitBackpack _unit) addItemCargoGlobal ["ACE_DefusalKit", 1];
+	(unitBackpack _unit) addItemCargoGlobal [_cableTie, 4];
+	(unitBackpack _unit) addItemCargoGlobal ["ACE_key_lockpick", 1];
+	(unitBackpack _unit) addItemCargoGlobal ["ACE_wirecutter", 1];
+
+};
+
+case "ctu-sniper":
+{
+
+};
+
+case "ctu-medic":
+{
+	_unit addBackpack _bagMedic;
+	clearMagazineCargoGlobal (unitBackpack _unit);
+	(unitBackpack _unit) addItemCargoGlobal [_medkit,1];
+	(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 6];
+	(unitBackpack _unit) addItemCargoGlobal [_firstaid, 12];
+	(unitBackpack _unit) addItemCargoGlobal [_bodyBag, 12];
+};
+
+case "ctu-lead":
+{
+
+};
+
 case "m":
 {
 	// LOADOUT: MEDIUM
